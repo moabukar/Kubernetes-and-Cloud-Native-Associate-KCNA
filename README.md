@@ -79,21 +79,29 @@
 
 ### Containers Orchestration Fundamentals
 
+- [What is Kubernetes?](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 - [Container Orchestration Explained](https://www.youtube.com/watch?v=kBF6Bvth0zw)
 
 ### Runtime
 
 - [Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 - [Container Runtime Interface (CRI)](https://kubernetes.io/docs/concepts/architecture/cri/)
-- []()
+- [What are Runtime Classes?](https://kubernetes.io/docs/concepts/containers/runtime-class/)
 
 ### Security
 
-- [Resource 1]()
+- [Overview of Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
+- [Securing a cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
+- [Cloud native security guide for building secure applications](https://snyk.io/learn/cloud-native-security-for-cloud-native-applications/)
+- [Controlling access to the K8s API](https://kubernetes.io/docs/concepts/security/controlling-access/)
+- []()
 
 ### Networking
 
-- [Resource 1]()
+- [Cluster networking in K8s](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
+- [Network Policies in K8s](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+- [Services, Load Balancing and Networking](https://kubernetes.io/docs/concepts/services-networking/)
+- []()
 
 ### Service Mesh
 
