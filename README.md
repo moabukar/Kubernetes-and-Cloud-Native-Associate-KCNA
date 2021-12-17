@@ -36,40 +36,40 @@
 
 ### Kubernetes Fundamentals - 46%
 
-1. [Kubernetes Resources](link)
-2. [Kubernetes Architecture](link)
-3. [Kubernetes API](link)
-4. [Containers](link)
-5. [Scheduling](link)
+- [Kubernetes Resources](link)
+- [Kubernetes Architecture](link)
+- [Kubernetes API](link)
+- [Containers](link)
+- [Scheduling](link)
 
 ### Container Orchestration - 22%
 
-1. [Container Orchestration Fundamentals](link)
-2. [Runtime](link)
-3. [Security](link)
-4. [Networking](link)
-5. [Service Mesh](link)
-6. [Storage](link)
+- [Container Orchestration Fundamentals](link)
+- [Runtime](link)
+- [Security](link)
+- [Networking](link)
+- [Service Mesh](link)
+- [Storage](link)
 
 ### Cloud Native Architecture - 16%
 
-1. [Autoscaling](link)
-2. [Serverless](link)
-3. [Community and Governance](link)
-4. [Personas](link)
-5. [Open Standards](link)
+- [Autoscaling](link)
+- [Serverless](link)
+- [Community and Governance](link)
+- [Personas](link)
+- [Open Standards](link)
 
 ### Cloud Native Observability - 8%
 
-1. [Telemetry & Observability](link)
-2. [Prometheus](link)
-3. [Cost Management](link)
+- [Telemetry & Observability](link)
+- [Prometheus](link)
+- [Cost Management](link)
 
 ### Cloud Native Application Delivery - 8%
 
-1. [Application Delivery Fundamentals](link)
-2. [GitOps](link)
-3. [CI/CD](link)
+- [Application Delivery Fundamentals](link)
+- [GitOps](link)
+- [CI/CD](link)
 
 ### Slack
 
