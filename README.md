@@ -112,6 +112,7 @@
 - [Microservices Architecture](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
 - [Managing microservice with Istio service mesh](https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/)
 - [What is microservices architecture?](https://cloud.google.com/learn/what-is-microservices-architecture)
+- [Microservices vs Monolithic Architecture](https://www.mulesoft.com/resources/api/microservices-vs-monolithic)
 
 ### Autoscaling
 
@@ -119,8 +120,10 @@
 
 ### Serverless
 
-- [Resource 1]()
-
+- [Microservices vs. Serverless Architecture](https://www.sumologic.com/blog/microservices-vs-serverless-architecture/)
+- [Serverless Functions as a Service for Kubernetes](https://kubernetes.io/blog/2017/01/fission-serverless-functions-as-service-for-kubernetes/)
+- [Serverless containers on K8s](https://knative.dev/docs/)
+- [Knative GitHub](https://github.com/knative)
 ### Community & Governance
 
 - [Resource 1]()
