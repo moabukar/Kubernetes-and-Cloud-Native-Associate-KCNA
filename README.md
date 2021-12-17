@@ -46,18 +46,27 @@
 
 ### Kubernetes Architecture
 
-- [Resource 1]()
+- [Kubernetes Componenent](https://kubernetes.io/docs/concepts/overview/components/)
+- [Nodes in K8s](https://kubernetes.io/docs/concepts/architecture/nodes/)
+- [Control Plane-Node Communication](https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/)
+- 
 
 ### Kubernetes API
 
-- [Resource 1]()
+- [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
+- [Kubernetes API server](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
 
 ### Containers
 
-- [Resource 1]()
+- [What are Containers?](https://kubernetes.io/docs/concepts/containers/)
+- [Containers](https://www.docker.com/resources/what-container)
+- [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) (OPTIONAL)
+
 ### Scheduling
 
-- [Resource 1]()
+- [The Kubernetes Schedule](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
+- [Assigning Pods to Nodes](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/)
+- []()
 
 ## :small_blue_diamond: Container Orchestration - 22%
 
@@ -66,7 +75,7 @@
 - [Resource 1]()
 ### Runtime
 
-- [Resource 1]()
+- [Container Runtime Interface (CRI)](https://kubernetes.io/docs/concepts/architecture/cri/)
 
 ### Security
 
