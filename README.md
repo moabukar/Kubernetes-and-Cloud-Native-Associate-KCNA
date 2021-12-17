@@ -60,18 +60,21 @@
 - [Containers](https://www.docker.com/resources/what-container)
 - [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) (OPTIONAL)
 - [Best practices for creating Dockerfiles](https://www.youtube.com/watch?v=JofsaZ3H1qM)
+- [Containers vs VMS](https://www.youtube.com/watch?v=cjXI-yxqGTI)
 
 ### Scheduling
 
-- [The Kubernetes Schedule](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
+- [The Kubernetes Scheduler](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
 - [Assigning Pods to Nodes](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/)
-- []()
+- [Scheduling framework](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/)
+- [How the K8s scheduler works](https://www.youtube.com/watch?v=rDCWxkvPlAw)
 
 ## :small_blue_diamond: Container Orchestration - 22%
 
 ### Containers Orchestration Fundamentals
 
-- [Resource 1]()
+- [Container Orchestration Explained](https://www.youtube.com/watch?v=kBF6Bvth0zw)
+
 ### Runtime
 
 - [Container Runtime Interface (CRI)](https://kubernetes.io/docs/concepts/architecture/cri/)
@@ -93,6 +96,8 @@
 - [Resource 1]()
 
 ## :small_blue_diamond: Cloud Native Architecture - 16%
+
+- [The Cloud Native Glossary](https://github.com/cncf/glossary/blob/main/cloudnative-glossary.pdf)
 
 ### Autoscaling
 
