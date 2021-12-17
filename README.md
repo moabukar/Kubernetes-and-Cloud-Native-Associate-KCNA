@@ -36,7 +36,7 @@
 - [x] [Webinars](#webinars)
 - [x] [Extra Kubernetes security resources](generic-kubernetes-containers-security/Kubernetes.md)
 
-## Kubernetes Fundamentals - 46%
+## :small_orange_diamond: Kubernetes Fundamentals - 46%
 
 - :small_orange_diamond: [Kubernetes Resources](link)
 
