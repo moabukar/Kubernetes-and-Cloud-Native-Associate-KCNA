@@ -47,31 +47,31 @@
 ### Container Orchestration - 22%
 
 :large_white_diamond: [Container Orchestration Fundamentals](link)
-- [Runtime](link)
-- [Security](link)
-- [Networking](link)
-- [Service Mesh](link)
-- [Storage](link)
+- :small_orange_diamond: [Runtime](link)
+- :small_orange_diamond: [Security](link)
+- :small_orange_diamond: [Networking](link)
+- :small_orange_diamond: [Service Mesh](link)
+- :small_orange_diamond: [Storage](link)
 
 ### Cloud Native Architecture - 16%
 
-- [Autoscaling](link)
-- [Serverless](link)
-- [Community and Governance](link)
-- [Roles & Personas](link)
-- [Open Standards](link)
+- :small_orange_diamond: [Autoscaling](link)
+- :small_orange_diamond: [Serverless](link)
+- :small_orange_diamond: [Community and Governance](link)
+- :small_orange_diamond: [Roles & Personas](link)
+- :small_orange_diamond: [Open Standards](link)
 
 ### Cloud Native Observability - 8%
 
-- [Telemetry & Observability](link)
-- [Prometheus](link)
-- [Cost Management](link)
+- :small_orange_diamond: [Telemetry & Observability](link)
+- :small_orange_diamond: [Prometheus](link)
+- :small_orange_diamond: [Cost Management](link)
 
 ### Cloud Native Application Delivery - 8%
 
-- [Application Delivery Fundamentals](link)
-- [GitOps](link)
-- [CI/CD](link)
+- :small_orange_diamond: [Application Delivery Fundamentals](link)
+- :small_orange_diamond: [GitOps](link)
+- :small_orange_diamond: [CI/CD](link)
 
 ### Slack
 
