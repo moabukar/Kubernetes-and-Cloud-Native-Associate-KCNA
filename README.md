@@ -46,45 +46,93 @@
 
 #### Kubernetes Architecture
 
+- [Resource 1]()
 
 #### Kubernetes API
 
+- [Resource 1]()
+
 #### Containers
 
-- []()
+- [Resource 1]()
+#### Scheduling
 
-- [Kubernetes Architecture](link)
-- [Kubernetes API](link)
-- [Containers](link)
-- [Scheduling](link)
+- [Resource 1]()
 
 ## :small_blue_diamond: Container Orchestration - 22%
 
-:large_white_diamond: [Container Orchestration Fundamentals](link)
-- [Runtime](link)
-- [Security](link)
-- [Networking](link)
-- [Service Mesh](link)
-- [Storage](link)
+#### Containers Orchestration Fundamentals
+
+- [Resource 1]()
+#### Runtime
+
+- [Resource 1]()
+
+#### Security
+
+- [Resource 1]()
+
+#### Networking
+
+- [Resource 1]()
+
+#### Service Mesh
+
+- [Resource 1]()
+
+#### Storage
+
+- [Resource 1]()
 
 ## :small_blue_diamond: Cloud Native Architecture - 16%
-- [Autoscaling](link)
-- [Serverless](link)
-- [Community and Governance](link)
-- [Roles & Personas](link)
-- [Open Standards](link)
+
+#### Autoscaling
+
+- [Resource 1]()
+
+#### Serverless
+
+- [Resource 1]()
+
+#### Community & Governance
+
+- [Resource 1]()
+
+#### Roles & Personas
+
+- [Resource 1]()
+
+#### Open Standards
+
+- [Resource 1]()
 
 ## :small_blue_diamond: Cloud Native Observability - 8%
 
-- [Telemetry & Observability](link)
-- [Prometheus](link)
-- [Cost Management](link)
+#### Telemetry & Observability
 
+- [Resource 1]()
+
+#### Prometheus
+
+- [Resource 1]()
+
+
+#### Cost Management
+
+- [Resource 1]()
 ## :small_blue_diamond: Cloud Native Application Delivery - 8%
 
-- [Application Delivery Fundamentals](link)
-- [GitOps](link)
-- [CI/CD](link)
+#### Application Delivery Fundamentals
+
+- [Resource 1]()
+
+#### GitOps
+
+- [Resource 1]()
+
+#### CI/CD
+
+- [Resource 1]()
 
 ### Slack
 
