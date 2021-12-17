@@ -134,13 +134,13 @@
 
 - [Resource 1]()
 
-### Slack
+## Slack
 
 1. [Kubernetes Community - #kcna-exam-prep](https://kubernetes.slack.com)
 1. [Kubernetes Community](https://kubernauts-slack-join.herokuapp.com/)
 
-### Books
+## Books
 
-### Useful Youtube vdeos
+## Useful Youtube vdeos
 
-#### Other KCNA related repos
+## Other KCNA related repos
