@@ -93,8 +93,11 @@
 - [Overview of Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
 - [Securing a cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
 - [Cloud native security guide for building secure applications](https://snyk.io/learn/cloud-native-security-for-cloud-native-applications/)
+- [Kubernetes Security Best Practices: 10 Steps to Securing K8s](https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-security-best-practices-10-steps-to-securing-k8s/)
+- [Kubernetes Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html)
+- [Kubernetes Security: Common Issues and Best Practices](https://snyk.io/learn/kubernetes-security/)
+- [What is Kubernetes Container Security?](https://www.trendmicro.com/en_gb/what-is/container-security/kubernetes.html)
 - [Controlling access to the K8s API](https://kubernetes.io/docs/concepts/security/controlling-access/)
-- []()
 
 ### Networking
 
