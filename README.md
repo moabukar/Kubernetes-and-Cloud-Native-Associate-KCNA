@@ -35,6 +35,11 @@
 - [x] [Books](#books)
 - [x] [Youtube Videos](#useful-youtube-videos)
 
+### Useful keys
+
+- K8s = Kubernetes
+- CNCF = Cloud Native Computing Foundation
+
 ## :small_blue_diamond: Kubernetes Fundamentals - 46%
 ### Fundamental Kuberenetes resources
 
@@ -99,6 +104,8 @@
 ## :small_blue_diamond: Cloud Native Architecture - 16%
 
 - [The Cloud Native Glossary](https://github.com/cncf/glossary/blob/main/cloudnative-glossary.pdf)
+- [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
+
 
 ### Autoscaling
 
