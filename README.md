@@ -38,7 +38,7 @@
 
 ### Kubernetes Fundamentals - 46%
 
-:large_white_diamond: [Kubernetes Resources](link)
+:large_blue_diamond: [Kubernetes Resources](link)
 - [Kubernetes Architecture](link)
 - [Kubernetes API](link)
 - [Containers](link)
