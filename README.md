@@ -38,11 +38,11 @@
 
 ### Kubernetes Fundamentals - 46%
 
-:small_blue_diamond: [Kubernetes Resources](link)
-- [Kubernetes Architecture](link)
-- [Kubernetes API](link)
-- [Containers](link)
-- [Scheduling](link)
+:small_orange_diamond: [Kubernetes Resources](link)
+:small_orange_diamond: [Kubernetes Architecture](link)
+:small_orange_diamond: [Kubernetes API](link)
+:small_orange_diamond: [Containers](link)
+:small_orange_diamond: [Scheduling](link)
 
 ### Container Orchestration - 22%
 
