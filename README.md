@@ -36,10 +36,7 @@
 - [x] [Webinars](#webinars)
 - [x] [Extra Kubernetes security resources](generic-kubernetes-containers-security/Kubernetes.md)
 
-## :small_orange_diamond: Kubernetes Fundamentals - 46%
-
-- :small_orange_diamond: [Kubernetes Resources](link)
-
+## :small_blue_diamond: Kubernetes Fundamentals - 46%
 #### Fundamental Kuberenetes resources
 
 - [Pods in Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
@@ -47,41 +44,47 @@
 - [Services in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service/)
 - [ReplicaSets in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
 
+#### Kubernetes Architecture
 
 
-- :small_orange_diamond: [Kubernetes Architecture](link)
-- :small_orange_diamond: [Kubernetes API](link)
-- :small_orange_diamond: [Containers](link)
-- :small_orange_diamond: [Scheduling](link)
+#### Kubernetes API
 
-## Container Orchestration - 22%
+#### Containers
+
+- []()
+
+- [Kubernetes Architecture](link)
+- [Kubernetes API](link)
+- [Containers](link)
+- [Scheduling](link)
+
+## :small_blue_diamond: Container Orchestration - 22%
 
 :large_white_diamond: [Container Orchestration Fundamentals](link)
-- :small_orange_diamond: [Runtime](link)
-- :small_orange_diamond: [Security](link)
-- :small_orange_diamond: [Networking](link)
-- :small_orange_diamond: [Service Mesh](link)
-- :small_orange_diamond: [Storage](link)
+- [Runtime](link)
+- [Security](link)
+- [Networking](link)
+- [Service Mesh](link)
+- [Storage](link)
 
-## Cloud Native Architecture - 16%
+## :small_blue_diamond: Cloud Native Architecture - 16%
+- [Autoscaling](link)
+- [Serverless](link)
+- [Community and Governance](link)
+- [Roles & Personas](link)
+- [Open Standards](link)
 
-- :small_orange_diamond: [Autoscaling](link)
-- :small_orange_diamond: [Serverless](link)
-- :small_orange_diamond: [Community and Governance](link)
-- :small_orange_diamond: [Roles & Personas](link)
-- :small_orange_diamond: [Open Standards](link)
+## :small_blue_diamond: Cloud Native Observability - 8%
 
-## Cloud Native Observability - 8%
+- [Telemetry & Observability](link)
+- [Prometheus](link)
+- [Cost Management](link)
 
-- :small_orange_diamond: [Telemetry & Observability](link)
-- :small_orange_diamond: [Prometheus](link)
-- :small_orange_diamond: [Cost Management](link)
+## :small_blue_diamond: Cloud Native Application Delivery - 8%
 
-## Cloud Native Application Delivery - 8%
-
-- :small_orange_diamond: [Application Delivery Fundamentals](link)
-- :small_orange_diamond: [GitOps](link)
-- :small_orange_diamond: [CI/CD](link)
+- [Application Delivery Fundamentals](link)
+- [GitOps](link)
+- [CI/CD](link)
 
 ### Slack
 
