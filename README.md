@@ -17,6 +17,7 @@
 - Certification validity: 3 years
 - Prerequisite: None
 - Cost: $250 USD, 1 year exam eligibility, with a free retake within the year.
+- [Official KCNA curriculum](https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf)
 
   *Linux Foundation offer several discounts around the year such as CyberMonday, Kubecon and various other events - ensure to utilise these*
 
