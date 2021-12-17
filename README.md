@@ -20,7 +20,7 @@
 
   *Linux Foundation offer several discounts around the year such as CyberMonday, Kubecon and various other events - ensure to utilise these*
 
-## KCNA repo topics overview
+## KCNA topics overview
 
 - [X] [Kubernetes Fundamentals - 46%](#kubernetes-fundamentals---46)
 - [X] [Container Orchestration - 22%](#containerr-orchestration---22)
@@ -32,9 +32,7 @@
 
 - [x] [Slack](#slack)
 - [x] [Books](#books)
-- [x] [Youtube Videos](#youtube-videos)
-- [x] [Webinars](#webinars)
-- [x] [Extra Kubernetes security resources](generic-kubernetes-containers-security/Kubernetes.md)
+- [x] [Youtube Videos](#useful-youtube-videos)
 
 ## :small_blue_diamond: Kubernetes Fundamentals - 46%
 ### Fundamental Kuberenetes resources
