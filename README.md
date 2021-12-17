@@ -7,6 +7,8 @@
   <img width="360" src="KCNA-logo.jpeg">
 </p>
 
+- Note: I will be preparing for the KCNA exam soon and in this repo I'll be documenting my notes and recommended resources. Feel free to share them :)
+
 ## Exam Brief
 
 - Duration : 1.5 hours
