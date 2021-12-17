@@ -35,10 +35,13 @@
 - [x] [Books](#books)
 - [x] [Youtube Videos](#useful-youtube-videos)
 
-### Useful keys
+### Useful keys & Common accronyms in Kubernetes
 
 - K8s = Kubernetes
 - CNCF = Cloud Native Computing Foundation
+- NetPol = Network Policies
+- PV = Persistent Volumes
+- PVC = Persistent Volume Claims
 
 ## :small_blue_diamond: Kubernetes Fundamentals - 46%
 ### Fundamental Kuberenetes resources
@@ -101,6 +104,7 @@
 - [Kubernetes Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html)
 - [Kubernetes Security: Common Issues and Best Practices](https://snyk.io/learn/kubernetes-security/)
 - [What is Kubernetes Container Security?](https://www.trendmicro.com/en_gb/what-is/container-security/kubernetes.html)
+- [Kubernetes Security 101: Fundamentals and Best Practices](https://sysdig.com/learn-cloud-native/kubernetes-security/kubernetes-security-101/)
 - [Understand Role Based Access Control (RBAC) in Kubernetes](https://www.youtube.com/watch?v=G3R24JSlGjY)
 - [Controlling access to the K8s API](https://kubernetes.io/docs/concepts/security/controlling-access/)
 
@@ -113,12 +117,18 @@
 
 ### Service Mesh
 
+- [What's a service mesh? (REDHAT)](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh)
+- [What Is a Service Mesh? (NGINX)](https://www.nginx.com/blog/what-is-a-service-mesh/)
+- [The Istio service mesh](https://istio.io/latest/about/service-mesh/)
+- [Istio & Service Mesh - simply explained in 15 mins](https://www.youtube.com/watch?v=16fgzklcF7Y)
 - [Managing microservice with Istio service mesh](https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/)
 
 
 ### Storage
 
-- [Resource 1]()
+- [Volumes in Kubernetes](https://kubernetes.io/docs/concepts/storage/volumes/)
+- [Persistent Volumes aka PVs in K8s](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
+- 
 
 ## :small_blue_diamond: Cloud Native Architecture - 16%
 
