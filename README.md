@@ -38,7 +38,7 @@
 
 ### Kubernetes Fundamentals - 46%
 
-- [Kubernetes Resources](link)
+:large_white_diamond: [Kubernetes Resources](link)
 - [Kubernetes Architecture](link)
 - [Kubernetes API](link)
 - [Containers](link)
@@ -46,7 +46,7 @@
 
 ### Container Orchestration - 22%
 
-- [Container Orchestration Fundamentals](link)
+:large_white_diamond: [Container Orchestration Fundamentals](link)
 - [Runtime](link)
 - [Security](link)
 - [Networking](link)
