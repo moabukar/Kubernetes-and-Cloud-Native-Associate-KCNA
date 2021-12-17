@@ -44,18 +44,18 @@
 - [Services in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service/)
 - [ReplicaSets in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
 
-#### Kubernetes Architecture
+### Kubernetes Architecture
 
 - [Resource 1]()
 
-#### Kubernetes API
+### Kubernetes API
 
 - [Resource 1]()
 
-#### Containers
+### Containers
 
 - [Resource 1]()
-#### Scheduling
+### Scheduling
 
 - [Resource 1]()
 
