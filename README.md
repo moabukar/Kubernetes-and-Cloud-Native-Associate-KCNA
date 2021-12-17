@@ -105,6 +105,8 @@
 
 - [The Cloud Native Glossary](https://github.com/cncf/glossary/blob/main/cloudnative-glossary.pdf)
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
+- [The beginners guide to the CNCF landscape](https://www.cncf.io/blog/2018/11/05/beginners-guide-cncf-landscape/)
+- [Graduated and incubaring projects in the CNCF eco-system](https://www.cncf.io/projects/)
 
 
 ### Autoscaling
