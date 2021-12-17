@@ -37,7 +37,7 @@
 - [x] [Extra Kubernetes security resources](generic-kubernetes-containers-security/Kubernetes.md)
 
 ## :small_blue_diamond: Kubernetes Fundamentals - 46%
-#### Fundamental Kuberenetes resources
+### Fundamental Kuberenetes resources
 
 - [Pods in Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
 - [Deployments in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
@@ -61,76 +61,76 @@
 
 ## :small_blue_diamond: Container Orchestration - 22%
 
-#### Containers Orchestration Fundamentals
+### Containers Orchestration Fundamentals
 
 - [Resource 1]()
-#### Runtime
-
-- [Resource 1]()
-
-#### Security
+### Runtime
 
 - [Resource 1]()
 
-#### Networking
+### Security
 
 - [Resource 1]()
 
-#### Service Mesh
+### Networking
 
 - [Resource 1]()
 
-#### Storage
+### Service Mesh
+
+- [Resource 1]()
+
+### Storage
 
 - [Resource 1]()
 
 ## :small_blue_diamond: Cloud Native Architecture - 16%
 
-#### Autoscaling
+### Autoscaling
 
 - [Resource 1]()
 
-#### Serverless
+### Serverless
 
 - [Resource 1]()
 
-#### Community & Governance
+### Community & Governance
 
 - [Resource 1]()
 
-#### Roles & Personas
+### Roles & Personas
 
 - [Resource 1]()
 
-#### Open Standards
+### Open Standards
 
 - [Resource 1]()
 
 ## :small_blue_diamond: Cloud Native Observability - 8%
 
-#### Telemetry & Observability
+### Telemetry & Observability
 
 - [Resource 1]()
 
-#### Prometheus
+### Prometheus
 
 - [Resource 1]()
 
 
-#### Cost Management
+### Cost Management
 
 - [Resource 1]()
 ## :small_blue_diamond: Cloud Native Application Delivery - 8%
 
-#### Application Delivery Fundamentals
+### Application Delivery Fundamentals
 
 - [Resource 1]()
 
-#### GitOps
+### GitOps
 
 - [Resource 1]()
 
-#### CI/CD
+### CI/CD
 
 - [Resource 1]()
 
