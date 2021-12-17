@@ -36,15 +36,25 @@
 - [x] [Webinars](#webinars)
 - [x] [Extra Kubernetes security resources](generic-kubernetes-containers-security/Kubernetes.md)
 
-### Kubernetes Fundamentals - 46%
+## Kubernetes Fundamentals - 46%
 
 - :small_orange_diamond: [Kubernetes Resources](link)
+
+#### Fundamental Kuberenetes resources
+
+- [Pods in Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
+- [Deployments in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+- [Services in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service/)
+- [ReplicaSets in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
+
+
+
 - :small_orange_diamond: [Kubernetes Architecture](link)
 - :small_orange_diamond: [Kubernetes API](link)
 - :small_orange_diamond: [Containers](link)
 - :small_orange_diamond: [Scheduling](link)
 
-### Container Orchestration - 22%
+## Container Orchestration - 22%
 
 :large_white_diamond: [Container Orchestration Fundamentals](link)
 - :small_orange_diamond: [Runtime](link)
@@ -53,7 +63,7 @@
 - :small_orange_diamond: [Service Mesh](link)
 - :small_orange_diamond: [Storage](link)
 
-### Cloud Native Architecture - 16%
+## Cloud Native Architecture - 16%
 
 - :small_orange_diamond: [Autoscaling](link)
 - :small_orange_diamond: [Serverless](link)
@@ -61,13 +71,13 @@
 - :small_orange_diamond: [Roles & Personas](link)
 - :small_orange_diamond: [Open Standards](link)
 
-### Cloud Native Observability - 8%
+## Cloud Native Observability - 8%
 
 - :small_orange_diamond: [Telemetry & Observability](link)
 - :small_orange_diamond: [Prometheus](link)
 - :small_orange_diamond: [Cost Management](link)
 
-### Cloud Native Application Delivery - 8%
+## Cloud Native Application Delivery - 8%
 
 - :small_orange_diamond: [Application Delivery Fundamentals](link)
 - :small_orange_diamond: [GitOps](link)
