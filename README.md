@@ -95,7 +95,8 @@
 
 ### Service Mesh
 
-- [Resource 1]()
+- [Managing microservice with Istio service mesh](https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/)
+
 
 ### Storage
 
@@ -107,7 +108,10 @@
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
 - [The beginners guide to the CNCF landscape](https://www.cncf.io/blog/2018/11/05/beginners-guide-cncf-landscape/)
 - [Graduated and incubaring projects in the CNCF eco-system](https://www.cncf.io/projects/)
-
+- [Introduction to Monolithic Architecture and MicroServices Architecture](https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63)
+- [Microservices Architecture](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
+- [Managing microservice with Istio service mesh](https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/)
+- [What is microservices architecture?](https://cloud.google.com/learn/what-is-microservices-architecture)
 
 ### Autoscaling
 
