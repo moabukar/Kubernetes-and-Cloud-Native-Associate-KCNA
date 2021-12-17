@@ -9,14 +9,14 @@
 
 ## Exam Brief
 
-- Duration : one and a half (1.5) hours
+- Duration : 1.5 hours
 <!-- Number of questions : ??? Multiple choice questions -->
 - Passing score: 67%
-- Certification validity: three (3) years
+- Certification validity: 3 years
 - Prerequisite: None
-- Cost: $250 USD, One (1) year exam eligibility, with a free retake within the year.
+- Cost: $250 USD, 1 year exam eligibility, with a free retake within the year.
 
-  *Linux Foundation offer several discounts around the year e.g. CyberMonday, Kubecon attendees among other special holidays/events*
+  *Linux Foundation offer several discounts around the year such as CyberMonday, Kubecon and various other events - ensure to utilise these*
 
 ## KCNA repo topics overview
 
@@ -75,10 +75,9 @@
 
 1. [Kubernetes Community - #kcna-exam-prep](https://kubernetes.slack.com)
 1. [Kubernetes Community](https://kubernauts-slack-join.herokuapp.com/)
-2. [Saiyam's Pathak OpenSource Discord](https://discord.gg/9PQBYKntPR)
 
 ### Books
 
-### Youtube Videos
+### Useful Youtube vdeos
 
-#### Other Kubernetes related repos
+#### Other KCNA related repos
