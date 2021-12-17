@@ -56,7 +56,7 @@
 - [Autoscaling](link)
 - [Serverless](link)
 - [Community and Governance](link)
-- [Personas](link)
+- [Roles & Personas](link)
 - [Open Standards](link)
 
 ### Cloud Native Observability - 8%
