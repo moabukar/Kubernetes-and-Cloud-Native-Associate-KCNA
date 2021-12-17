@@ -61,6 +61,7 @@
 - [What are Containers?](https://kubernetes.io/docs/concepts/containers/)
 - [Containers](https://www.docker.com/resources/what-container)
 - [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) (OPTIONAL)
+- [Best practices for creating Dockerfiles](https://www.youtube.com/watch?v=JofsaZ3H1qM)
 
 ### Scheduling
 
