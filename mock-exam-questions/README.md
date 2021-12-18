@@ -1,4 +1,6 @@
-## Some practice questions to help you prepare for the KCNA exam
+## Practice questions
+
+Note: Some practice questions to help you prepare for the KCNA exam
 
 <details close>
 <summary>1. What is the smallest unit in Kubernetes?</summary>
