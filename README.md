@@ -126,9 +126,15 @@
 
 ### Storage
 
+- [Storage in Kubernetes](https://kubernetes.io/docs/concepts/storage/)
+- [What is Kubernetes Storage?](https://cloud.netapp.com/blog/cvo-blg-kubernetes-storage-an-in-depth-look)
+- [Kubernetes Storage 101: Concepts and Best Practices](https://cloudian.com/guides/kubernetes-storage/kubernetes-storage-101-concepts-and-best-practices/)
 - [Volumes in Kubernetes](https://kubernetes.io/docs/concepts/storage/volumes/)
 - [Persistent Volumes aka PVs in K8s](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
-- 
+- [Why Is Storage On Kubernetes So Hard?](https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard/)
+- [A complete storage guide for your Kubernetes storage problems by CNCF](https://www.cncf.io/blog/2020/04/28/a-complete-storage-guide-for-your-kubernetes-storage-problems/)
+- [To run or not to run a database on Kubernetes: What to consider](https://cloud.google.com/blog/products/databases/to-run-or-not-to-run-a-database-on-kubernetes-what-to-consider)
+- [Kubernetes And Databases](https://www.magalix.com/blog/kubernetes-and-database)
 
 ## :small_blue_diamond: Cloud Native Architecture - 16%
 
