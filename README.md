@@ -91,7 +91,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 ### 1.2 Kubernetes Architecture
 
 <p align="center">
-  <img width="360" src="k8s-architecture.jpeg.png">
+  <img width="360" src="./pics/k8s-architecture.jpeg.png">
 </p>
 
 - [Kubernetes Componenent](https://kubernetes.io/docs/concepts/overview/components/)
@@ -106,6 +106,10 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Kubernetes API server](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
 
 ### 1.4 Containers
+
+<p align="center">
+  <img width="360" src="./pics/containervsvm.jpeg">
+</p>
 
 - [What are Containers?](https://kubernetes.io/docs/concepts/containers/)
 - [Containers](https://www.docker.com/resources/what-container)
@@ -142,7 +146,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [The 4C's of Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
 
 <p align="center">
-  <img width="360" src="4c.jpeg">
+  <img width="360" src="./pics/4c.jpeg">
 </p>
 
 - [Securing a cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
