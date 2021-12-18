@@ -31,6 +31,6 @@ Note: Some practice questions to help you prepare for the KCNA exam
 1. Cluster, Cloud, Containers, Compute
 2. Compute, Cloud, Code, Containers
 3. Code, Container, Cluster, Cloud
-4. Code, 
+4. Code, Containers, Computer, Computing
 
 </details>
