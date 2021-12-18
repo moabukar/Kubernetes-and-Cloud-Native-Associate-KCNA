@@ -29,6 +29,8 @@
 - [X] [Cloud Native Observability - 8%](#cloud-native-observability---8)
 - [X] [Cloud Native Application Delivery - 8%](#cloud-native-application-delivery---8)
 
+## [Practice questions](./mock-exam-questions/README.md)
+
 #### Extra helpful materials
 
 - [x] [Slack](#slack)
