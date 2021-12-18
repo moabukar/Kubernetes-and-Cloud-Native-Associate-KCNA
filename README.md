@@ -46,6 +46,7 @@
 - PVC = Persistent Volume Claims
 
 ## :small_blue_diamond: Kubernetes Fundamentals - 46%
+
 ### Fundamental Kuberenetes resources
 
 - [Pods in Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
@@ -124,7 +125,6 @@
 - [Istio & Service Mesh - simply explained in 15 mins](https://www.youtube.com/watch?v=16fgzklcF7Y)
 - [Managing microservice with Istio service mesh](https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/)
 
-
 ### Storage
 
 - [Storage in Kubernetes](https://kubernetes.io/docs/concepts/storage/)
@@ -158,14 +158,12 @@
 - [Kubernetes Autoscaling in Production: Best Practices for Cluster Autoscaler, HPA and VPA](https://www.replex.io/blog/kubernetes-in-production-best-practices-for-cluster-autoscaler-hpa-and-vpa)
 - [Horizontal Pod autoscaling in GKE (GCP)](https://cloud.google.com/kubernetes-engine/docs/concepts/horizontalpodautoscaler)
 
-
 ### Serverless
 
 - [Microservices vs. Serverless Architecture](https://www.sumologic.com/blog/microservices-vs-serverless-architecture/)
 - [Serverless Functions as a Service for Kubernetes](https://kubernetes.io/blog/2017/01/fission-serverless-functions-as-service-for-kubernetes/)
 - [Serverless containers on K8s](https://knative.dev/docs/)
 - [Knative GitHub](https://github.com/knative)
-
 
 ### Community & Governance
 
@@ -187,7 +185,7 @@
 ### Open Standards
 
 - [Navigating open standards for Kubernetes](https://www.information-age.com/navigating-open-standards-for-kubernetes-123492463/)
-- [Open standards can make or break a Kubernetes implementation ](https://morioh.com/p/02a05107d000)
+- [Open standards can make or break a Kubernetes implementation](https://morioh.com/p/02a05107d000)
 - [Three tips to implement Kubernetes with open standards](https://techtelegraph.co.uk/three-tips-to-implement-kubernetes-with-open-standards/)
 
 ## :small_blue_diamond: Cloud Native Observability - 8%
@@ -202,17 +200,20 @@
 - [CNCF Advances OpenTelemetry Initiative](https://devops.com/cncf-advances-opentelemetry-initiative/)
 - [Splunk Donates eBPF Telemetry Data Collector to CNCF](https://devops.com/splunk-donates-ebpf-telemetry-data-collector-to-cncf/)
 
-
 ### Prometheus
 
 - [What is Prometheus?](https://prometheus.io/docs/introduction/overview/)
 - [An introduction to monitoring with Prometheus](https://opensource.com/article/19/11/introduction-monitoring-prometheus)
 - [How Prometheus Monitoring works | Prometheus Architecture explained by Nana Janashia](https://www.youtube.com/watch?v=h4Sl21AKiDg)
 - [What is Prometheus and Why Should You Use It?](https://opsani.com/resources/what-is-prometheus-and-why-should-you-use-it/)
+- [Metrics For Kubernetes System Components](https://kubernetes.io/docs/concepts/cluster-administration/system-metrics/)
 
 ### Cost Management
 
-- [Resource 1]()
+- [Cost management for Kubernetes](https://www.redhat.com/en/technologies/cloud-computing/openshift/cost-management)
+- [Kubernetes Cost Analysis: Manage Your Kubernetes Costs](https://harness.io/blog/kubernetes-cost-analysis/)
+- [Kubernetes Cost Management and Analysis Guide](https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b)
+
 ## :small_blue_diamond: Cloud Native Application Delivery - 8%
 
 ### Application Delivery Fundamentals
@@ -228,8 +229,6 @@
 - [Resource 1]()
 
 ## [Practice questions](./mock-exam-questions/README.md)
-
-
 
 ## Slack
 
