@@ -7,7 +7,7 @@
   <img width="360" src="KCNA-logo.jpeg">
 </p>
 
-- Note: A documentation of notes & useful used to prepare for the KCNA. Feel free to share them :)
+- Note: A documentation of notes & useful resources used to prepare for the KCNA. Feel free to share them :)
 
 ## Exam Brief
 
@@ -50,8 +50,33 @@
 ### Fundamental Kuberenetes resources
 
 - [Pods in Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
+<details>
+<summary>Pods in K8s</summary>
+<br>
+
+Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
+
+</details>
+
 - [Deployments in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+<details>
+<summary>Deployments in K8s</summary>
+<br>
+
+A Deployment provides declarative updates for Pods and ReplicaSets.
+
+You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate. You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments.
+</details>
+
 - [Services in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service/)
+<details>
+<summary>Services in K8s</summary>
+<br>
+
+An abstract way to expose an application running on a set of Pods as a network service.
+
+</details>
+
 - [ReplicaSets in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
 
 ### Kubernetes Architecture
@@ -252,6 +277,10 @@
 
 - [Kubernetes: Up and Running by O’Reilly](https://learning.oreilly.com/library/view/kubernetes-up-and/9781491935668/)
 - [7 Best Books to Get You Started with Kubernetes](https://blog.turbonomic.com/top-kubernetes-book)
+
+## References
+
+- [The Official Kubernetes Documentation](https://k8s.io/docs)
 
 ## Useful Youtube vdeos
 
