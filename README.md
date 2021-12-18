@@ -78,10 +78,25 @@ An abstract way to expose an application running on a set of Pods as a network s
 </details>
 
 - [ReplicaSets in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
+<details>
+<summary>ReplicaSets in K8s</summary>
+<br>
+
+A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods.
+
+</details>
+
+
 
 ### Kubernetes Architecture
 
+<p align="left">
+  <img width="360" src="k8s-architecture.jpeg.png">
+</p>
+
 - [Kubernetes Componenent](https://kubernetes.io/docs/concepts/overview/components/)
+
+
 - [Nodes in K8s](https://kubernetes.io/docs/concepts/architecture/nodes/)
 - [Control Plane-Node Communication](https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/)
 
