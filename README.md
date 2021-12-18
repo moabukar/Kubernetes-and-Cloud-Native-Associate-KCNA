@@ -225,7 +225,6 @@
 - [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops)
 - [ArgoCD Kubernetes - YouTube playlist by Just me and Opensource](https://www.youtube.com/playlist?list=PL34sAs7_26wMW4bWKnMIfEd87aPuw75by)
 - [ArgoCon 2021 - YouTube playlist](https://www.youtube.com/playlist?list=PLGHfqDpnXFXKwNGO_8usFuTO-rIHNyefC)
-- 
 
 ### CI/CD
 
