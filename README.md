@@ -90,7 +90,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 
 ### Kubernetes Architecture
 
-<p align="left">
+<p align="center">
   <img width="360" src="k8s-architecture.jpeg.png">
 </p>
 
@@ -140,6 +140,11 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 ### Security
 
 - [The 4C's of Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
+
+<p align="center">
+  <img width="360" src="4c.jpeg">
+</p>
+
 - [Securing a cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
 - [Cloud native security guide for building secure applications](https://snyk.io/learn/cloud-native-security-for-cloud-native-applications/)
 - [Kubernetes Security Best Practices: 10 Steps to Securing K8s](https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-security-best-practices-10-steps-to-securing-k8s/)
