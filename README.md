@@ -259,4 +259,10 @@
 - [Open Source Values & Advocacy & Deep Dive KCNA Exam | CLOUDNATIVE.FM Ep 31](https://www.youtube.com/watch?v=wPbsvF_SGmc)
 - []()
 
-## Other KCNA related repos
+## Useful Kubernetes repos + Next steps?
+
+- [Kubernetes Certified Administrator by Walid Shaari](https://github.com/walidshaari/Kubernetes-Certified-Administrator)
+- [CKA Exercises](https://github.com/moabukar/CKA-Exercises)
+- [CKAD Exercises](https://github.com/dgkanatsios/CKAD-exercises)
+- [CKS repo by Walid Shaari](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist)
+- [CKS-Exercises](https://github.com/moabukar/CKS-Exercises-Certified-Kubernetes-Security-Specialist)
