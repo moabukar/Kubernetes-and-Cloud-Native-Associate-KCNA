@@ -23,3 +23,14 @@ Note: Some practice questions to help you prepare for the KCNA exam
 4. Cloud Native Cloud Federation
 
 </details>
+
+<details close>
+<summary>2. What are the 4Cs of Cloud Native Security?</summary>
+<br>
+
+1. Cluster, Cloud, Containers, Compute
+2. Compute, Cloud, Code, Containers
+3. Code, Container, Cluster, Cloud
+4. Code, 
+
+</details>

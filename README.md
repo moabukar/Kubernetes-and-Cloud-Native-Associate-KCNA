@@ -29,7 +29,7 @@
 - [X] [Cloud Native Observability - 8%](#cloud-native-observability---8)
 - [X] [Cloud Native Application Delivery - 8%](#cloud-native-application-delivery---8)
 
-## [Practice questions](./mock-exam-questions/README.md)
+## [Practice questions](./mock-exam-questions/questions.md)
 
 #### Extra helpful materials
 
@@ -236,7 +236,7 @@
 - [Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/)
 - [CI/CD Pipelines with Kubernetes | Best Practices and Tools](https://www.containiq.com/post/cicd-pipelines-with-kubernetes)
 
-## [Practice questions](./mock-exam-questions/README.md)
+## [Practice questions](./mock-exam-questions/questions.md)
 
 ## Slack
 
