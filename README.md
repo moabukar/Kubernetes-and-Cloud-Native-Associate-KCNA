@@ -56,7 +56,6 @@
 - [Kubernetes Componenent](https://kubernetes.io/docs/concepts/overview/components/)
 - [Nodes in K8s](https://kubernetes.io/docs/concepts/architecture/nodes/)
 - [Control Plane-Node Communication](https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/)
-- 
 
 ### Kubernetes API
 
@@ -93,7 +92,6 @@
 - [What are Runtime Classes?](https://kubernetes.io/docs/concepts/containers/runtime-class/)
 - [Kubernetes is deprecating Docker as a container runtime after v1.20](https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/)
 - [Kubernetes is deprecating Docker: what you need to know](https://acloudguru.com/blog/engineering/kubernetes-is-deprecating-docker-what-you-need-to-know)
-- []()
 
 ### Security
 
