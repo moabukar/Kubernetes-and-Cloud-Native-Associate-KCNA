@@ -215,6 +215,10 @@
 
 - [Resource 1]()
 
+## [Practice questions](./mock-exam-questions/README.md)
+
+
+
 ## Slack
 
 1. [Kubernetes Community - #kcna-exam-prep](https://kubernetes.slack.com)
