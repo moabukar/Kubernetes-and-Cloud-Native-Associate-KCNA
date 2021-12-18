@@ -154,7 +154,7 @@
 - [Horizontal Pod Autoscaling (HPA in K8s)](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
 - [Kubernetes Autoscaling: 3 Methods and How to Make Them Great](https://spot.io/resources/kubernetes-autoscaling-3-methods-and-how-to-make-them-great/)
 - [Kubernetes Autoscaling in Production: Best Practices for Cluster Autoscaler, HPA and VPA](https://www.replex.io/blog/kubernetes-in-production-best-practices-for-cluster-autoscaler-hpa-and-vpa)
-- []()
+- [Horizontal Pod autoscaling in GKE (GCP)](https://cloud.google.com/kubernetes-engine/docs/concepts/horizontalpodautoscaler)
 
 
 ### Serverless
@@ -167,15 +167,25 @@
 
 ### Community & Governance
 
-- [Resource 1]()
+- [Community & Governance in K8s (K8s GitHub)](https://github.com/kubernetes/community/blob/master/governance.md)
+- [The Kubernetes Community](https://kubernetes.io/community/)
+- [The Official Kuberenetes GitHub](https://github.com/kubernetes/kubernetes)
+- [Kubernetes governance, what you should know](https://www.cncf.io/blog/2020/05/29/kubernetes-governance-what-you-should-know/)
+- [Kubernetes Community Values](https://kubernetes.io/community/values/)
+- [Kubernetes 1.21: Power to the Community](https://kubernetes.io/blog/2021/04/08/kubernetes-1-21-release-announcement/)
+- [Kubernetes in Production: Best Practices for Governance, Cost Management, Security and Access Control](https://www.replex.io/blog/kubernetes-in-production-best-practices-for-governance-cost-management-and-security-and-access-control)
 
 ### Roles & Personas
 
-- [Resource 1]()
+- [Personas](https://cluster-api.sigs.k8s.io/user/personas.html)
+- [[Podcast] PodCTL #28 - Kubernetes Roles & Personas](https://cloud.redhat.com/blog/podcast-podctl-28-kubernetes-roles-personas)
+- [Personas and use cases](https://www.ibm.com/docs/en/cloud-paks/cp-management/1.3.0?topic=about-personas-use-cases)
+- [PodCTL - Enterprise Kubernetes - podcast focused on Roles and Personas of K8s environments](https://podctl.buzzsprout.com/110399/653300-kubernetes-roles-personas)
 
 ### Open Standards
 
-- [Resource 1]()
+- [Navigating open standards for Kubernetes](https://www.information-age.com/navigating-open-standards-for-kubernetes-123492463/)
+- [Open standards can make or break a Kubernetes implementation ](https://morioh.com/p/02a05107d000)
 
 ## :small_blue_diamond: Cloud Native Observability - 8%
 
