@@ -45,9 +45,9 @@
 - PV = Persistent Volumes
 - PVC = Persistent Volume Claims
 
-## :small_blue_diamond: Kubernetes Fundamentals - 46%
+## :small_blue_diamond: 1. Kubernetes Fundamentals - 46%
 
-### Fundamental Kuberenetes resources
+### 1.1 Fundamental Kuberenetes resources
 
 - [Pods in Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
 <details>
@@ -88,7 +88,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 
 
 
-### Kubernetes Architecture
+### 1.2 Kubernetes Architecture
 
 <p align="center">
   <img width="360" src="k8s-architecture.jpeg.png">
@@ -100,12 +100,12 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Nodes in K8s](https://kubernetes.io/docs/concepts/architecture/nodes/)
 - [Control Plane-Node Communication](https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/)
 
-### Kubernetes API
+### 1.3 Kubernetes API
 
 - [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
 - [Kubernetes API server](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
 
-### Containers
+### 1.4 Containers
 
 - [What are Containers?](https://kubernetes.io/docs/concepts/containers/)
 - [Containers](https://www.docker.com/resources/what-container)
@@ -114,21 +114,21 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Containers vs VMS](https://www.youtube.com/watch?v=cjXI-yxqGTI)
 - [Container Images](https://kubernetes.io/docs/concepts/containers/images/)
 
-### Scheduling
+### 1.5 Scheduling
 
 - [The Kubernetes Scheduler](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)
 - [Assigning Pods to Nodes](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/)
 - [Scheduling framework](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/)
 - [How the K8s scheduler works](https://www.youtube.com/watch?v=rDCWxkvPlAw)
 
-## :small_blue_diamond: Container Orchestration - 22%
+## :small_blue_diamond: 2. Container Orchestration - 22%
 
-### Containers Orchestration Fundamentals
+### 2.1 Containers Orchestration Fundamentals
 
 - [What is Kubernetes?](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 - [Container Orchestration Explained](https://www.youtube.com/watch?v=kBF6Bvth0zw)
 
-### Runtime
+### 2.2 Runtime
 
 - [Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 - [Making Sense of the Container Runtime Landscape in Kubernetes](https://www.youtube.com/watch?v=RyXL1zOa8Bw)
@@ -137,7 +137,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Kubernetes is deprecating Docker as a container runtime after v1.20](https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/)
 - [Kubernetes is deprecating Docker: what you need to know](https://acloudguru.com/blog/engineering/kubernetes-is-deprecating-docker-what-you-need-to-know)
 
-### Security
+### 2.3 Security
 
 - [The 4C's of Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
 
@@ -155,14 +155,14 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Understand Role Based Access Control (RBAC) in Kubernetes](https://www.youtube.com/watch?v=G3R24JSlGjY)
 - [Controlling access to the K8s API](https://kubernetes.io/docs/concepts/security/controlling-access/)
 
-### Networking
+### 2.4 Networking
 
 - [Cluster networking in K8s](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 - [Network Policies in K8s](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [Services, Load Balancing and Networking](https://kubernetes.io/docs/concepts/services-networking/)
 - [Container Networking From Scratch](https://www.youtube.com/watch?v=6v_BDHIgOY8)
 
-### Service Mesh
+### 2.5 Service Mesh
 
 - [What's a service mesh? (REDHAT)](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh)
 - [What Is a Service Mesh? (NGINX)](https://www.nginx.com/blog/what-is-a-service-mesh/)
@@ -170,7 +170,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Istio & Service Mesh - simply explained in 15 mins](https://www.youtube.com/watch?v=16fgzklcF7Y)
 - [Managing microservice with Istio service mesh](https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/)
 
-### Storage
+### 2.6 Storage
 
 - [Storage in Kubernetes](https://kubernetes.io/docs/concepts/storage/)
 - [What is Kubernetes Storage?](https://cloud.netapp.com/blog/cvo-blg-kubernetes-storage-an-in-depth-look)
@@ -182,7 +182,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [To run or not to run a database on Kubernetes: What to consider](https://cloud.google.com/blog/products/databases/to-run-or-not-to-run-a-database-on-kubernetes-what-to-consider)
 - [Kubernetes And Databases](https://www.magalix.com/blog/kubernetes-and-database)
 
-## :small_blue_diamond: Cloud Native Architecture - 16%
+## :small_blue_diamond: 3. Cloud Native Architecture - 16%
 
 - [The Cloud Native Glossary](https://github.com/cncf/glossary/blob/main/cloudnative-glossary.pdf)
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
@@ -195,7 +195,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [What is microservices architecture?](https://cloud.google.com/learn/what-is-microservices-architecture)
 - [Microservices vs Monolithic Architecture](https://www.mulesoft.com/resources/api/microservices-vs-monolithic)
 
-### Autoscaling
+### 3.1 Autoscaling
 
 - [Autoscaling in Kubernetes](https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/)
 - [Horizontal Pod Autoscaling (HPA in K8s)](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
@@ -203,14 +203,14 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Kubernetes Autoscaling in Production: Best Practices for Cluster Autoscaler, HPA and VPA](https://www.replex.io/blog/kubernetes-in-production-best-practices-for-cluster-autoscaler-hpa-and-vpa)
 - [Horizontal Pod autoscaling in GKE (GCP)](https://cloud.google.com/kubernetes-engine/docs/concepts/horizontalpodautoscaler)
 
-### Serverless
+### 3.2 Serverless
 
 - [Microservices vs. Serverless Architecture](https://www.sumologic.com/blog/microservices-vs-serverless-architecture/)
 - [Serverless Functions as a Service for Kubernetes](https://kubernetes.io/blog/2017/01/fission-serverless-functions-as-service-for-kubernetes/)
 - [Serverless containers on K8s](https://knative.dev/docs/)
 - [Knative GitHub](https://github.com/knative)
 
-### Community & Governance
+### 3.3 Community & Governance
 
 - [Community & Governance in K8s (K8s GitHub)](https://github.com/kubernetes/community/blob/master/governance.md)
 - [The Kubernetes Community](https://kubernetes.io/community/)
@@ -220,22 +220,22 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Kubernetes 1.21: Power to the Community](https://kubernetes.io/blog/2021/04/08/kubernetes-1-21-release-announcement/)
 - [Kubernetes in Production: Best Practices for Governance, Cost Management, Security and Access Control](https://www.replex.io/blog/kubernetes-in-production-best-practices-for-governance-cost-management-and-security-and-access-control)
 
-### Roles & Personas
+### 3.4 Roles & Personas
 
 - [Personas](https://cluster-api.sigs.k8s.io/user/personas.html)
 - [[Podcast] PodCTL #28 - Kubernetes Roles & Personas](https://cloud.redhat.com/blog/podcast-podctl-28-kubernetes-roles-personas)
 - [Personas and use cases](https://www.ibm.com/docs/en/cloud-paks/cp-management/1.3.0?topic=about-personas-use-cases)
 - [PodCTL - Enterprise Kubernetes - podcast focused on Roles and Personas of K8s environments](https://podctl.buzzsprout.com/110399/653300-kubernetes-roles-personas)
 
-### Open Standards
+### 3.5 Open Standards
 
 - [Navigating open standards for Kubernetes](https://www.information-age.com/navigating-open-standards-for-kubernetes-123492463/)
 - [Open standards can make or break a Kubernetes implementation](https://morioh.com/p/02a05107d000)
 - [Three tips to implement Kubernetes with open standards](https://techtelegraph.co.uk/three-tips-to-implement-kubernetes-with-open-standards/)
 
-## :small_blue_diamond: Cloud Native Observability - 8%
+## :small_blue_diamond: 4. Cloud Native Observability - 8%
 
-### Telemetry & Observability
+### 4.1 Telemetry & Observability
 
 - [What is Telemetry? The Guide to Application Monitoring](https://www.sumologic.com/insight/what-is-telemetry/)
 - [Tools for Monitoring Resources](https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/)
@@ -245,7 +245,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [CNCF Advances OpenTelemetry Initiative](https://devops.com/cncf-advances-opentelemetry-initiative/)
 - [Splunk Donates eBPF Telemetry Data Collector to CNCF](https://devops.com/splunk-donates-ebpf-telemetry-data-collector-to-cncf/)
 
-### Prometheus
+### 4.2 Prometheus
 
 - [What is Prometheus?](https://prometheus.io/docs/introduction/overview/)
 - [An introduction to monitoring with Prometheus](https://opensource.com/article/19/11/introduction-monitoring-prometheus)
@@ -253,26 +253,26 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [What is Prometheus and Why Should You Use It?](https://opsani.com/resources/what-is-prometheus-and-why-should-you-use-it/)
 - [Metrics For Kubernetes System Components](https://kubernetes.io/docs/concepts/cluster-administration/system-metrics/)
 
-### Cost Management
+### 4.3 Cost Management
 
 - [Cost management for Kubernetes](https://www.redhat.com/en/technologies/cloud-computing/openshift/cost-management)
 - [Kubernetes Cost Analysis: Manage Your Kubernetes Costs](https://harness.io/blog/kubernetes-cost-analysis/)
 - [Kubernetes Cost Management and Analysis Guide](https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b)
 
-## :small_blue_diamond: Cloud Native Application Delivery - 8%
+## :small_blue_diamond: 5. Cloud Native Application Delivery - 8%
 
-### Application Delivery Fundamentals
+### 5.1 Application Delivery Fundamentals
 
 - [Continuous delivery at cloud native speed](https://www.weave.works/use-cases/application-delivery/)
 - [What is Helm](https://helm.sh/)
 
-### GitOps
+### 5.2 GitOps
 
 - [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops)
 - [ArgoCD Kubernetes - YouTube playlist by Just me and Opensource](https://www.youtube.com/playlist?list=PL34sAs7_26wMW4bWKnMIfEd87aPuw75by)
 - [ArgoCon 2021 - YouTube playlist](https://www.youtube.com/playlist?list=PLGHfqDpnXFXKwNGO_8usFuTO-rIHNyefC)
 
-### CI/CD
+### 5.3 CI/CD
 
 - [Kubernetes CICD - CI/CD for Kubernetes | Weaveworks](https://www.weave.works/technologies/ci-cd-for-kubernetes/)
 - [Kubernetes for CI/CD at scale](https://platform9.com/blog/kubernetes-for-ci-cd-at-scale/)
@@ -281,7 +281,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/)
 - [CI/CD Pipelines with Kubernetes | Best Practices and Tools](https://www.containiq.com/post/cicd-pipelines-with-kubernetes)
 
-## [Practice questions](./mock-exam-questions/questions.md)
+# [Practice questions - Click this for practice questions (IN PROGRESS)](./mock-exam-questions/questions.md)
 
 ## Slack
 
