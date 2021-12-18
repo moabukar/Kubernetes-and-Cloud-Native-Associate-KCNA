@@ -218,15 +218,23 @@
 
 ### Application Delivery Fundamentals
 
-- [Resource 1]()
+- [Continuous delivery at cloud native speed](https://www.weave.works/use-cases/application-delivery/)
 
 ### GitOps
 
-- [Resource 1]()
+- [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops)
+- [ArgoCD Kubernetes - YouTube playlist by Just me and Opensource](https://www.youtube.com/playlist?list=PL34sAs7_26wMW4bWKnMIfEd87aPuw75by)
+- [ArgoCon 2021 - YouTube playlist](https://www.youtube.com/playlist?list=PLGHfqDpnXFXKwNGO_8usFuTO-rIHNyefC)
+- 
 
 ### CI/CD
 
-- [Resource 1]()
+- [Kubernetes CICD - CI/CD for Kubernetes | Weaveworks](https://www.weave.works/technologies/ci-cd-for-kubernetes/)
+- [Kubernetes for CI/CD at scale](https://platform9.com/blog/kubernetes-for-ci-cd-at-scale/)
+- [Kubernetes CI/CD pipelines: What, why, and how](https://ubuntu.com/blog/kubernetes-ci-cd-pipelines-what-why-and-how)
+- [Top Open Source CI/CD Tools for Kubernetes to Know](https://cloud.redhat.com/blog/top-open-source-ci/cd-tools-for-kubernetes-to-know)
+- [Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/)
+- [CI/CD Pipelines with Kubernetes | Best Practices and Tools](https://www.containiq.com/post/cicd-pipelines-with-kubernetes)
 
 ## [Practice questions](./mock-exam-questions/README.md)
 
@@ -234,6 +242,11 @@
 
 1. [Kubernetes Community - #kcna-exam-prep](https://kubernetes.slack.com)
 1. [Kubernetes Community](https://kubernauts-slack-join.herokuapp.com/)
+
+## Useful training material
+
+- [Kubernetes and Cloud Native Essentials by The Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/)
+- [Introduction to GitOps by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/)
 
 ## Books
 
