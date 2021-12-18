@@ -1,7 +1,7 @@
 ## Some practice questions to help you prepare for the KCNA exam
 
-<details open>
-<summary>What is the smallest unit in Kubernetes?</summary>
+<details close>
+<summary>1. What is the smallest unit in Kubernetes?</summary>
 <br>
 
 1. Docker
@@ -11,8 +11,8 @@
 
 </details>
 
-<details open>
-<summary>What does CNCF stand for?</summary>
+<details close>
+<summary>2. What does CNCF stand for?</summary>
 <br>
 
 1. Cloud Native Container Foundation
