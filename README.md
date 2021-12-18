@@ -13,7 +13,7 @@
 
 - Duration : 1.5 hours
 <!-- Number of questions : ??? Multiple choice questions -->
-- Passing score: 67%
+- Passing score: 75%
 - Certification validity: 3 years
 - Prerequisite: None
 - Cost: $250 USD, 1 year exam eligibility, with a free retake within the year.
