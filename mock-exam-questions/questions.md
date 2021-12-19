@@ -25,7 +25,7 @@ Note: Some practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
-<summary>2. What are the 4Cs of Cloud Native Security?</summary>
+<summary>3. What are the 4Cs of Cloud Native Security?</summary>
 <br>
 
 1. Cluster, Cloud, Containers, Compute
