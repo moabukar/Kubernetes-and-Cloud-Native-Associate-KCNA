@@ -24,10 +24,10 @@
 ## KCNA topics overview
 
 - [X] [Kubernetes Fundamentals - 46%](#small_blue_diamond-1-kubernetes-fundamentals---46)
-- [X] [Container Orchestration - 22%](#Container-orchestration---22)
-- [X] [Cloud Native Architecture - 16%](#cloud-native-architecture---16)
-- [X] [Cloud Native Observability - 8%](#cloud-native-observability---8)
-- [X] [Cloud Native Application Delivery - 8%](#cloud-native-application-delivery---8)
+- [X] [Container Orchestration - 22%](#small_blue_diamond-2-container-orchestration---22)
+- [X] [Cloud Native Architecture - 16%](#small_blue_diamond-3-cloud-native-architecture---16)
+- [X] [Cloud Native Observability - 8%](#small_blue_diamond-4-cloud-native-observability---8)
+- [X] [Cloud Native Application Delivery - 8%](#small_blue_diamond-5-cloud-native-application-delivery---8)
 
 ## [Practice questions](./mock-exam-questions/questions.md)
 
