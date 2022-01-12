@@ -298,7 +298,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 - [Kubernetes and Cloud Native Essentials by The Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/)
 - [Introduction to GitOps by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/)
 
-## More reading material
+## Books
 
 - [Kubernetes: Up and Running by O’Reilly](https://learning.oreilly.com/library/view/kubernetes-up-and/9781491935668/)
 - [7 Best Books to Get You Started with Kubernetes](https://blog.turbonomic.com/top-kubernetes-book)
