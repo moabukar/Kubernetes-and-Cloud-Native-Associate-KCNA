@@ -29,7 +29,8 @@
 - [X] [Cloud Native Observability - 8%](#small_blue_diamond-4-cloud-native-observability---8)
 - [X] [Cloud Native Application Delivery - 8%](#small_blue_diamond-5-cloud-native-application-delivery---8)
 
-## [Practice questions](./mock-exam-questions/questions.md)
+## Practice questions for KCNA
+- [X] [Practice questions](./mock-exam-questions/questions.md)
 
 #### Extra helpful materials
 
