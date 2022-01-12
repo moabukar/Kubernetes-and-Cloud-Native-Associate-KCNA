@@ -23,7 +23,7 @@
 
 ## KCNA topics overview
 
-- [X] [Kubernetes Fundamentals - 46%](#kubernetes-fundamentals---46)
+- [X] [Kubernetes Fundamentals - 46%](##-:small_blue_diamond:-1.-Kubernetes Fundamentals---46%)
 - [X] [Container Orchestration - 22%](#container-orchestration---22)
 - [X] [Cloud Native Architecture - 16%](#cloud-native-architecture---16)
 - [X] [Cloud Native Observability - 8%](#cloud-native-observability---8)
