@@ -121,6 +121,8 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 </details>
 
+<details close>
+
 <summary> :small_blue_diamond: 11. What are the main part of a Service Mesh? </summary>
 <br>
 
@@ -131,3 +133,4 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 </details>
 
+<details close>
