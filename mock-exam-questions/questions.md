@@ -210,3 +210,39 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
+<summary> :small_blue_diamond: 18. Select TWO commands which can be used to LIST all pods in all namespaces. </summary>
+<br>
+
+1. kubectl get pods
+2. kubectl get pods -n --all
+3. kubectl get pods -A
+4. kubectl get pods --all-namespaces
+
+</details>
+
+<details close>
+
+<summary> :small_blue_diamond: 19. What is the command to list all the availabe objects in your Kuberenetes cluster ?  </summary>
+<br>
+
+1. kubectl list api-resources
+2. kubectl get apis
+3. kubectl get api-resources
+4. kubectl api-resources
+
+</details>
+
+<details close>
+
+<summary> :small_blue_diamond: 20. Which of these is not a service type in Kubernetes?  </summary>
+<br>
+
+1. ClusterIP
+2. NodePort
+3. Ingress
+4. LoadBalancer
+
+</details>
+
+<details close>
