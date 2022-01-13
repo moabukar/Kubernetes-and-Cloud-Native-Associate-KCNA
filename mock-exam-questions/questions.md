@@ -1,6 +1,6 @@
 ## Practice questions
 
-Note: Some practice questions to help you prepare for the KCNA exam
+Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 <summary>1. What is the smallest unit in Kubernetes?</summary>
@@ -34,3 +34,81 @@ Note: Some practice questions to help you prepare for the KCNA exam
 4. Code, Containers, Computer, Computing
 
 </details>
+
+<details close>
+<summary>4. What is the most common autoscaling method in the world of cloud-native?</summary>
+<br>
+
+1. Horizontal Scaling
+2. Upward Scaling
+3. Vertical Scaling
+4. Downward Scaling
+
+</details>
+
+<details close>
+<summary>5. What does serverless computing not need?</summary>
+<br>
+
+1. Cloud
+2. Servers
+3. The provisioning and operating infrastructure 
+4. Code
+
+</details>
+
+<details close>
+<summary>6. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
+<br>
+
+1. Service Level Objective (SLO)
+2. Service Level Indicator (SLI)
+3. Service Level Requirement (SLR) 
+4. Service Level Agreement (SLA)
+
+</details>
+
+<details close>
+<summary>7. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
+<br>
+
+1. Service Level Objective (SLO)
+2. Service Level Indicator (SLI)
+3. Service Level Definition (SLD) 
+4. Service Level Agreement (SLA)
+
+</details>
+
+<details close>
+<summary>8. The Kubernetes object "Stateful Set" requires which service for the network identity of Pods? </summary>
+<br>
+
+1. ClusterIP
+2. NodePort
+3. LoadBalancer
+4. Headless Service
+
+</details>
+
+<details close>
+<summary>9. The Open Container Initiative (OCI) provides container standards for ? </summary>
+<br>
+
+1. Runtime, Image, Distribution
+2. Image, Build, Distributions
+3. Container, Image, Build
+4. Container, image distribution
+
+</details>
+
+<details close>
+<summary>10. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
+<br>
+
+1. EC2 Instances
+2. Infrastructure as Service
+3. Serverless
+4. Bare Metal Model
+
+</details>
+
