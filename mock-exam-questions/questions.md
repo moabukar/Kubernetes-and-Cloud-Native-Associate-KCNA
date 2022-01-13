@@ -14,6 +14,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>2. What does CNCF stand for?</summary>
 <br>
 
@@ -25,6 +26,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>3. What are the 4Cs of Cloud Native Security?</summary>
 <br>
 
@@ -36,6 +38,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>4. What is the most common autoscaling method in the world of cloud-native?</summary>
 <br>
 
@@ -47,6 +50,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>5. What does serverless computing not need?</summary>
 <br>
 
@@ -58,6 +62,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>6. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
 <br>
 
@@ -69,6 +74,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>7. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
 <br>
 
@@ -80,6 +86,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>8. The Kubernetes object "Stateful Set" requires which service for the network identity of Pods? </summary>
 <br>
 
@@ -91,6 +98,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>9. The Open Container Initiative (OCI) provides container standards for ? </summary>
 <br>
 
@@ -102,6 +110,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
 <summary>10. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
 <br>
 
