@@ -174,3 +174,39 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
+<summary> :small_blue_diamond: 15. Which access control componenet of Kubernetes is responsible for authorisation and deciedes what a user is allowed to do? </summary>
+<br>
+
+1. Config Maps
+2. Service Account
+3. Admission Controller
+4. Role-Based Access Control (RBAC)
+
+</details>
+
+<details close>
+
+
+<summary> :small_blue_diamond: 16. Which of the following container runtime is marked as deprecated by Kubernetes? </summary>
+<br>
+
+1. gVisor
+2. Docer
+3. containerd
+4. CRI-O
+
+</details>
+
+<details close>
+
+<summary> :small_blue_diamond: 17. Which control plane componenet is responsible for scheduling pods? </summary>
+<br>
+
+1. kubelet
+2. kube controller manager
+3. kube scheduler
+4. kube-proxy
+
+</details>
+
+<details close>
