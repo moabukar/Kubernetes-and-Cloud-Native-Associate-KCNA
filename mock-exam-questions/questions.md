@@ -15,7 +15,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>2. What does CNCF stand for?</summary>
+<summary> :small_blue_diamond: 2. What does CNCF stand for?</summary>
 <br>
 
 1. Cloud Native Container Foundation
@@ -27,7 +27,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>3. What are the 4Cs of Cloud Native Security?</summary>
+<summary> :small_blue_diamond: 3. What are the 4Cs of Cloud Native Security?</summary>
 <br>
 
 1. Cluster, Cloud, Containers, Compute
@@ -39,7 +39,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>4. What is the most common autoscaling method in the world of cloud-native?</summary>
+<summary> :small_blue_diamond: 4. What is the most common autoscaling method in the world of cloud-native?</summary>
 <br>
 
 1. Horizontal Scaling
@@ -51,7 +51,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>5. What does serverless computing not need?</summary>
+<summary> :small_blue_diamond: 5. What does serverless computing not need?</summary>
 <br>
 
 1. Cloud
@@ -63,7 +63,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>6. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
+<summary> :small_blue_diamond: 6. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
 <br>
 
 1. Service Level Objective (SLO)
@@ -75,7 +75,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>7. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
+<summary> :small_blue_diamond: 7. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
 <br>
 
 1. Service Level Objective (SLO)
@@ -87,7 +87,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>8. The Kubernetes object "Stateful Set" requires which service for the network identity of Pods? </summary>
+<summary> :small_blue_diamond: 8. The Kubernetes object "Stateful Set" requires which service for the network identity of Pods? </summary>
 <br>
 
 1. ClusterIP
@@ -99,7 +99,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>  9. The Open Container Initiative (OCI) provides container standards for ? </summary>
+<summary> :small_blue_diamond: 9. The Open Container Initiative (OCI) provides container standards for ? </summary>
 <br>
 
 1. Runtime, Image, Distribution
@@ -111,7 +111,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>10. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
+<summary> :small_blue_diamond: 10. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
 <br>
 
 1. EC2 Instances
@@ -121,12 +121,13 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 </details>
 
-<summary>10. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
+<summary> :small_blue_diamond: 11. What are the main part of a Service Mesh? </summary>
 <br>
 
-1. EC2 Instances
-2. Infrastructure as Service
-3. Serverless
-4. Bare Metal Model
+1. Master plane and worker node
+2. Kube-scheduler and controller manager
+3. Data plane and Control plane
+4. Discovery plane and date plane
 
 </details>
+
