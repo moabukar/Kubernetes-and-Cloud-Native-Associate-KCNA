@@ -246,3 +246,28 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
+<summary> :small_blue_diamond: 21. What language is used to specify and create a Kubernetes resource?  </summary>
+<br>
+
+1. JavaScript
+2. Python
+3. YAML
+4. JSON
+
+</details>
+
+<details close>
+
+<summary> :small_blue_diamond: 22. Which of the following is not a required field to create a Kubernetes resource?  </summary>
+<br>
+
+1. kind
+2. apiVersion
+3. container
+4. metadata
+
+</details>
+
+<details close>
+
