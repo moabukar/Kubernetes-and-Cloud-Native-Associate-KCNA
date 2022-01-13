@@ -63,19 +63,8 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
+
 <summary> :small_blue_diamond: 6. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
-<br>
-
-1. Service Level Objective (SLO)
-2. Service Level Indicator (SLI)
-3. Service Level Requirement (SLR) 
-4. Service Level Agreement (SLA)
-
-</details>
-
-<details close>
-
-<summary> :small_blue_diamond: 7. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
 <br>
 
 1. Service Level Objective (SLO)
@@ -87,7 +76,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 8. The Kubernetes object "Stateful Set" requires which service for the network identity of Pods? </summary>
+<summary> :small_blue_diamond: 7. The Kubernetes object "Stateful Set" requires which service for the network identity of Pods? </summary>
 <br>
 
 1. ClusterIP
@@ -99,7 +88,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 9. The Open Container Initiative (OCI) provides container standards for ? </summary>
+<summary> :small_blue_diamond: 8. The Open Container Initiative (OCI) provides container standards for ? </summary>
 <br>
 
 1. Runtime, Image, Distribution
@@ -111,7 +100,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 10. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
+<summary> :small_blue_diamond: 9. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
 <br>
 
 1. EC2 Instances
@@ -123,7 +112,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 11. What are the main part of a Service Mesh? </summary>
+<summary> :small_blue_diamond: 10. What are the main part of a Service Mesh? </summary>
 <br>
 
 1. Master plane and worker node
@@ -134,3 +123,54 @@ Note: Practice questions to help you prepare for the KCNA exam
 </details>
 
 <details close>
+
+<summary> :small_blue_diamond: 11. Kubernetes was originally developed by who? </summary>
+<br>
+
+1. Amazon
+2. Google
+3. Microsoft
+4. Facebook
+
+</details>
+
+<details close>
+
+<summary> :small_blue_diamond: 12. What are the TWO types of Kubernetes nodes? Select TWO answers. </summary>
+<br>
+
+1. Worker Node
+2. Internal Node
+3. Control Plane Node
+4. Data plane
+
+</details>
+
+<details close>
+
+
+<summary> :small_blue_diamond: 13. What is the name of the agent that run on each Kubernetes worker node? </summary>
+<br>
+
+1. etcd
+2. kube-API server
+3. kube-proxy
+4. kubelet
+
+</details>
+
+<details close>
+
+
+<summary> :small_blue_diamond: 14. Which of the following is not part of the Control Plane in Kubernetes? </summary>
+<br>
+
+1. etcd
+2. kube-API server
+3. kube scheduler
+4. kube-proxy
+
+</details>
+
+<details close>
+
