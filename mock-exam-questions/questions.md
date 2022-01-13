@@ -3,7 +3,7 @@
 Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
-<summary>1. What is the smallest unit in Kubernetes?</summary>
+<summary> :small_blue_diamond: 1. What is the smallest unit in Kubernetes?</summary>
 <br>
 
 1. Docker
@@ -99,7 +99,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary>9. The Open Container Initiative (OCI) provides container standards for ? </summary>
+<summary>  9. The Open Container Initiative (OCI) provides container standards for ? </summary>
 <br>
 
 1. Runtime, Image, Distribution
@@ -121,3 +121,12 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 </details>
 
+<summary>10. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
+<br>
+
+1. EC2 Instances
+2. Infrastructure as Service
+3. Serverless
+4. Bare Metal Model
+
+</details>
