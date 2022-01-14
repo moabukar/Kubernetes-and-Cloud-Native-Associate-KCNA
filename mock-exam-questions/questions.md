@@ -191,7 +191,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 <br>
 
 1. gVisor
-2. Docer
+2. Docker
 3. containerd
 4. CRI-O
 
