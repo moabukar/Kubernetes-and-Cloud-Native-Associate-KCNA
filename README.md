@@ -4,7 +4,7 @@
 # Kubernetes-and-Cloud-Native-Associate KCNA
 
 <p align="center">
-  <img width="360" src="./pics/KCNA-logo.jpeg">
+  <img width="180" src="./pics/KCNA-logo.jpeg">
 </p>
 
 - Note: A documentation of notes & useful resources used to prepare for the KCNA. Feel free to share them :)
