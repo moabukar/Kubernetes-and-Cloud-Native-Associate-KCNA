@@ -243,7 +243,8 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [What are Runtime Classes?](https://kubernetes.io/docs/concepts/containers/runtime-class/)
 - [Kubernetes is deprecating Docker as a container runtime after v1.20](https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/)
 - [Kubernetes is deprecating Docker: what you need to know](https://acloudguru.com/blog/engineering/kubernetes-is-deprecating-docker-what-you-need-to-know)
-
+- [Rancher Desktop – An Open Source App for Desktop Kubernetes and Container Management](https://www.suse.com/c/rancher_blog/rancher-desktop-an-open-source-app-for-desktop-kubernetes-and-container-management/)
+- [Rancher Desktop GitHub](https://github.com/rancher-sandbox/rancher-desktop)
 ### 2.3 Security
 
 - [The 4C's of Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
