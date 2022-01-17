@@ -76,6 +76,17 @@ You describe a desired state in a Deployment, and the Deployment Controller chan
 
 An abstract way to expose an application running on a set of Pods as a network service.
 
+Types of Services:
+ClusterIP: Exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. This is the default ServiceType.
+
+NodePort: Exposes the Service on each Node's IP at a static port (the NodePort). A ClusterIP Service, to which the NodePort Service routes, is automatically created. You'll be able to contact the NodePort Service, from outside the cluster, by requesting <NodeIP>:<NodePort>.
+
+LoadBalancer: Exposes the Service externally using a cloud provider's load balancer. NodePort and ClusterIP Services, to which the external load balancer routes, are automatically created.
+
+ExternalName: Maps the Service to the contents of the externalName field (e.g. foo.bar.example.com), by returning a CNAME record with its value. No proxying of any kind is set up.
+
+Reference: https://kubernetes.io/docs/concepts/services-networking/service/
+
 </details>
 
 - [ReplicaSets in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
@@ -84,6 +95,16 @@ An abstract way to expose an application running on a set of Pods as a network s
 <br>
 
 A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods.
+
+</details>
+
+<details>
+<summary>Headless Services</summary>
+<br>
+
+Sometimes you don't need load-balancing and a single Service IP. In this case, you can create what are termed "headless" Services, by explicitly specifying "None" for the cluster IP (.spec.clusterIP).
+
+You can use a headless Service to interface with other service discovery mechanisms, without being tied to Kubernetes' implementation.
 
 </details>
 
