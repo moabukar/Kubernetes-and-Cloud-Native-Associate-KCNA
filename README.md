@@ -400,7 +400,13 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 
 - [Kubernetes and Cloud Native Essentials by The Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/)
 - [Introduction to GitOps by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/)
+- [How to Pass your KCNA Exam by Brad McCoy](https://blog.bradmccoy.io/how-to-pass-your-kcna-exam-cf98cfa7d70f)
+- 
 
+## Useful reading material
+
+- [How to Pass your KCNA Exam by Brad McCoy](https://blog.bradmccoy.io/how-to-pass-your-kcna-exam-cf98cfa7d70f)
+- [The KCNA Exam — A quick guide to kicking off your K8S and Cloud Native Journey by Marino Wijay](https://medium.com/@marino.wijay/the-kcna-exam-a-quick-guide-to-kicking-off-your-k8s-and-cloud-native-journey-56a3a5be345)
 ## Books
 
 - [Kubernetes: Up and Running by O’Reilly](https://learning.oreilly.com/library/view/kubernetes-up-and/9781491935668/)
