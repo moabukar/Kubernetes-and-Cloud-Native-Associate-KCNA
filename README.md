@@ -389,7 +389,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/)
 - [CI/CD Pipelines with Kubernetes | Best Practices and Tools](https://www.containiq.com/post/cicd-pipelines-with-kubernetes)
 
-# [Practice questions - Click this for practice questions (IN PROGRESS)](./mock-exam-questions/questions.md)
+# [Practice questions - Click this for practice questions (COMING SOON)](./mock-exam-questions/questions.md)
 
 ## Slack
 
