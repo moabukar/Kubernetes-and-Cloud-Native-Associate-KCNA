@@ -9,6 +9,8 @@
 
 - Note: A documentation of notes & useful resources used to prepare for the KCNA. Feel free to share them :)
 
+The KCNA is a certification aimed for individuals who want to advance to the professional level by demonstrating an understanding of the core knowledge and abilities of Kubernetes. This certification is ideal for students learning about or candidates interested in working with cloud native technologies. [KCNA](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
+
 ## Exam Brief
 
 - Duration : 1.5 hours
@@ -17,7 +19,9 @@
 - Certification validity: 3 years
 - Prerequisite: None
 - Cost: $250 USD, 1 year exam eligibility, with a free retake within the year.
+- Result: Emailed 24 hours after exam completion
 - [Official KCNA curriculum](https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf)
+- The exam consists of around 60 MCQ questions.
 
   *Linux Foundation offer several discounts around the year such as CyberMonday, Kubecon and various other events - ensure to utilise these*
 
@@ -216,6 +220,9 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 
 - [What are Containers?](https://kubernetes.io/docs/concepts/containers/)
 - [Containers](https://www.docker.com/resources/what-container)
+- [Kubernetes for the Absolute Beginners - Hands-on by Mumshad](https://www.udemy.com/course/learn-kubernetes/)
+- [Containers for Beginners](https://k21academy.com/docker-kubernetes/what-are-containers/)
+- [Kubernetes for Beginners](https://k21academy.com/docker-kubernetes/kubernetes-for-beginners/)
 - [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) (OPTIONAL)
 - [Best practices for creating Dockerfiles](https://www.youtube.com/watch?v=JofsaZ3H1qM)
 - [Containers vs VMS](https://www.youtube.com/watch?v=cjXI-yxqGTI)
@@ -401,7 +408,6 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Kubernetes and Cloud Native Essentials by The Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/)
 - [Introduction to GitOps by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/)
 - [How to Pass your KCNA Exam by Brad McCoy](https://blog.bradmccoy.io/how-to-pass-your-kcna-exam-cf98cfa7d70f)
-- 
 
 ## Useful reading material
 
