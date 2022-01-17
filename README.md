@@ -50,9 +50,17 @@
 
 ### 1.1 Fundamental Kuberenetes resources
 
+<details>
+<summary>EXAMPLE - CLICK ARROW TO READ MORE</summary>
+<br>
+
+EXAMPLE
+
+</details>
+
 - [Pods in Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
 <details>
-<summary>Pods in K8s</summary>
+<summary>Pods in K8s - CLICK ARROW TO READ MORE</summary>
 <br>
 
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
@@ -61,7 +69,7 @@ Pods are the smallest deployable units of computing that you can create and mana
 
 - [Deployments in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 <details>
-<summary>Deployments in K8s</summary>
+<summary>Deployments in K8s - CLICK ARROW TO READ MORE</summary>
 <br>
 
 A Deployment provides declarative updates for Pods and ReplicaSets.
@@ -71,7 +79,7 @@ You describe a desired state in a Deployment, and the Deployment Controller chan
 
 - [Services in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service/)
 <details>
-<summary>Services in K8s</summary>
+<summary>Services in K8s - CLICK ARROW TO READ MORE</summary>
 <br>
 
 An abstract way to expose an application running on a set of Pods as a network service.
@@ -91,7 +99,7 @@ Reference: https://kubernetes.io/docs/concepts/services-networking/service/
 
 - [ReplicaSets in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
 <details>
-<summary>ReplicaSets in K8s</summary>
+<summary>ReplicaSets in K8s - CLICK ARROW TO READ MORE</summary>
 <br>
 
 A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods.
@@ -99,7 +107,8 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 </details>
 
 <details>
-<summary>Headless Services</summary>
+
+<summary>Headless Services - CLICK ARROW TO READ MORE</summary>
 <br>
 
 Sometimes you don't need load-balancing and a single Service IP. In this case, you can create what are termed "headless" Services, by explicitly specifying "None" for the cluster IP (.spec.clusterIP).
@@ -116,9 +125,11 @@ You can use a headless Service to interface with other service discovery mechani
   <img width="360" src="./pics/k8s-architecture.jpeg.png">
 </p>
 
-- [Kubernetes Componenent](https://kubernetes.io/docs/concepts/overview/components/)
+- [Kubernetes Components Reference](https://kubernetes.io/docs/concepts/overview/components/)
 
-<summary>K8s components</summary>
+<details>
+
+<summary>K8s components - CLICK ARROW TO READ MORE</summary>
 <br>
 
 ***Control Plane Components***
@@ -163,12 +174,23 @@ kube-proxy maintains network rules on nodes. These network rules allow network c
 
 </details>
 
-
-
 - [Nodes in K8s](https://kubernetes.io/docs/concepts/architecture/nodes/)
 - [Control Plane-Node Communication](https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/)
 
-### 1.3 Kubernetes API
+<details>
+<summary>K8s API - CLICK ARROW TO READ MORE</summary>
+<br>
+
+
+**Kubernetes API**
+
+The core of Kubernetes' control plane is the API server. The API server exposes an HTTP API that lets end users, different parts of your cluster, and external components communicate with one another.
+
+The Kubernetes API lets you query and manipulate the state of API objects in Kubernetes (for example: Pods, Namespaces, ConfigMaps, and Events).
+
+Most operations can be performed through the kubectl command-line interface or other command-line tools, such as kubeadm, which in turn use the API. However, you can also access the API directly using REST calls.
+
+</details>
 
 - [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
 - [Kubernetes API server](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
@@ -178,6 +200,19 @@ kube-proxy maintains network rules on nodes. These network rules allow network c
 <p align="center">
   <img width="360" src="./pics/containervsvm.jpeg">
 </p>
+
+
+<details>
+<summary>Containers - CLICK ARROW TO READ MORE</summary>
+<br>
+
+Containers are a form of operating system virtualization. A single container might be used to run anything from a small microservice or software process to a larger application. Inside a container are all the necessary executables, binary code, libraries, and configuration files. Compared to server or machine virtualization approaches, however, containers do not contain operating system images. 
+
+This makes them more lightweight and portable, with significantly less overhead. In larger application deployments, multiple containers may be deployed as one or more container clusters. Such clusters might be managed by a container orchestrator such as Kubernetes.
+
+Reference : https://www.netapp.com/devops-solutions/what-are-containers/
+
+</details>
 
 - [What are Containers?](https://kubernetes.io/docs/concepts/containers/)
 - [Containers](https://www.docker.com/resources/what-container)
