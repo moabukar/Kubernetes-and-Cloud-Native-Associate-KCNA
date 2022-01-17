@@ -421,6 +421,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Kubernetes and Cloud Native Associate (KCNA) exam - Katie Gamanji, CNCF](https://www.youtube.com/watch?v=TtUMT5cnVO4)
 - [KCNA breakdown by Saiyam Pathak](https://www.youtube.com/watch?v=iGkFHB1kFZ0)
 - [Open Source Values & Advocacy & Deep Dive KCNA Exam | CLOUDNATIVE.FM Ep 31](https://www.youtube.com/watch?v=wPbsvF_SGmc)
+- [KCNA Deep Dive by Katie Gamanji - The CLOUDNATIVEFM With SAIM ](https://www.youtube.com/watch?v=wPbsvF_SGmc)
 
 ## Useful Kubernetes repos + Next steps?
 
