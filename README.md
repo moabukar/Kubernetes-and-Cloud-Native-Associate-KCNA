@@ -118,6 +118,53 @@ You can use a headless Service to interface with other service discovery mechani
 
 - [Kubernetes Componenent](https://kubernetes.io/docs/concepts/overview/components/)
 
+<summary>K8s components</summary>
+<br>
+
+***Control Plane Components***
+
+**kube-apiserver:**
+
+The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. The API server is the front end for the Kubernetes control plane.
+
+The main implementation of a Kubernetes API server is kube-apiserver. kube-apiserver is designed to scale horizontally—that is, it scales by deploying more instances. You can run several instances of kube-apiserver and balance traffic between those instances.
+
+**etcd**
+Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
+
+**kube-scheduler:**
+Control plane component that watches for newly created Pods with no assigned node, and selects a node for them to run on.
+
+**kube-controller-manager:**
+Control plane component that runs controller processes.
+
+Logically, each controller is a separate process, but to reduce complexity, they are all compiled into a single binary and run in a single process.
+
+Some types of these controllers are:
+
+Node controller: Responsible for noticing and responding when nodes go down.
+Job controller: Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.
+Endpoints controller: Populates the Endpoints object (that is, joins Services & Pods).
+Service Account & Token controllers: Create default accounts and API access tokens for new namespaces.
+
+**cloud-controller-manager:**
+A Kubernetes control plane component that embeds cloud-specific control logic. The cloud controller manager lets you link your cluster into your cloud provider's API, and separates out the components that interact with that cloud platform from components that only interact with your cluster.
+The cloud-controller-manager only runs controllers that are specific to your cloud provider. If you are running Kubernetes on your own premises, or in a learning environment inside your own PC, the cluster does not have a cloud controller manager.
+
+***Worker Node Components***
+
+**kubelet**
+An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod.
+
+**kube-proxy**
+kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept.
+
+kube-proxy maintains network rules on nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your cluster.
+
+
+</details>
+
+
 
 - [Nodes in K8s](https://kubernetes.io/docs/concepts/architecture/nodes/)
 - [Control Plane-Node Communication](https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/)
