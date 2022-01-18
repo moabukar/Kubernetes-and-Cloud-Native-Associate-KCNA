@@ -292,7 +292,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 ### 2.5 Service Mesh
 
 <p align="center">
-  <img width="240" src="./pics/Istio.png">
+  <img width="360" src="./pics/Istio.png">
 </p>
 
 - [What's a service mesh? (REDHAT)](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh)
