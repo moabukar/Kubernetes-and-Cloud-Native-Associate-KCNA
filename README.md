@@ -367,6 +367,8 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [How Prometheus Monitoring works | Prometheus Architecture explained by Nana Janashia](https://www.youtube.com/watch?v=h4Sl21AKiDg)
 - [What is Prometheus and Why Should You Use It?](https://opsani.com/resources/what-is-prometheus-and-why-should-you-use-it/)
 - [Metrics For Kubernetes System Components](https://kubernetes.io/docs/concepts/cluster-administration/system-metrics/)
+- [Query Examples from Prometheus](https://prometheus.io/docs/prometheus/latest/querying/examples/)
+- [Jaeger: open source, end-to-end distributed tracing](https://www.jaegertracing.io/)
 
 ### 4.3 Cost Management
 
@@ -394,7 +396,10 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)
 - [GitOps tools in comparison by cloudogu](https://cloudogu.com/en/blog/gitops-tools)
 - [Flux vs ArgoCD](https://www.sgmoratilla.com/2021-10-28-flux-vs-argocd/)
-
+- [Why is a PULL vs a PUSH pipeline important?](https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important)
+- [Push vs. Pull in GitOps: Is There Really a Difference?](https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/)
+- [ArgoCD Architecture](https://argo-cd.readthedocs.io/en/stable/operator-manual/architecture/)
+- []()
 ### 5.3 CI/CD
 
 - [Kubernetes CICD - CI/CD for Kubernetes | Weaveworks](https://www.weave.works/technologies/ci-cd-for-kubernetes/)
@@ -415,10 +420,16 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 
 - [Kubernetes and Cloud Native Essentials by The Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/)
 - [Introduction to GitOps by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/)
-- [How to Pass your KCNA Exam by Brad McCoy](https://blog.bradmccoy.io/how-to-pass-your-kcna-exam-cf98cfa7d70f)
+- [Introduction to DevOps & Site Reliability Engineering by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/)
+- [Oh My Git! An open source game about learning Git!](https://ohmygit.org/)
+- [Learn Git Branching](https://learngitbranching.js.org/)
+- []()
 
 ## Useful reading material
 
+- [Delivering Cloud Native Infrastructure as Code by Pulumi](https://www.pulumi.com/why-pulumi/delivering-cloud-native-infrastructure-as-code/)
+- [Unlocking the Cloud Operating Model: Provisioning](https://www.hashicorp.com/resources/unlocking-the-cloud-operating-model-provisioning)
+- [GitLab’s guide to CI/CD for beginners](https://about.gitlab.com/blog/2020/07/06/beginner-guide-ci-cd/)
 - [How to Pass your KCNA Exam by Brad McCoy](https://blog.bradmccoy.io/how-to-pass-your-kcna-exam-cf98cfa7d70f)
 - [The KCNA Exam — A quick guide to kicking off your K8S and Cloud Native Journey by Marino Wijay](https://medium.com/@marino.wijay/the-kcna-exam-a-quick-guide-to-kicking-off-your-k8s-and-cloud-native-journey-56a3a5be345)
 ## Books
