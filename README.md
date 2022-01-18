@@ -49,6 +49,10 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 - NetPol = Network Policies
 - PV = Persistent Volumes
 - PVC = Persistent Volume Claims
+- CSI = Container Storage Interface
+- CNI = Container Network Interface
+- CI/CD = Continuous Integration & Continuous Deployment
+- RBAC = Role Based Access
 
 ## :small_blue_diamond: 1. Kubernetes Fundamentals - 46%
 
