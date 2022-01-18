@@ -221,6 +221,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [What are Containers?](https://kubernetes.io/docs/concepts/containers/)
 - [Containers](https://www.docker.com/resources/what-container)
 - [Kubernetes for the Absolute Beginners - Hands-on by Mumshad](https://www.udemy.com/course/learn-kubernetes/)
+- [What are Kubernetes Pods Anyway?](https://www.ianlewis.org/en/what-are-kubernetes-pods-anyway)
 - [Containers for Beginners](https://k21academy.com/docker-kubernetes/what-are-containers/)
 - [Kubernetes for Beginners](https://k21academy.com/docker-kubernetes/kubernetes-for-beginners/)
 - [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) (OPTIONAL)
@@ -241,6 +242,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 
 - [What is Kubernetes?](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 - [Container Orchestration Explained](https://www.youtube.com/watch?v=kBF6Bvth0zw)
+- [Containers vs. Pods - Taking a Deeper Look](https://iximiuz.com/en/posts/containers-vs-pods/)
 
 ### 2.2 Runtime
 
@@ -296,14 +298,64 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [A complete storage guide for your Kubernetes storage problems by CNCF](https://www.cncf.io/blog/2020/04/28/a-complete-storage-guide-for-your-kubernetes-storage-problems/)
 - [To run or not to run a database on Kubernetes: What to consider](https://cloud.google.com/blog/products/databases/to-run-or-not-to-run-a-database-on-kubernetes-what-to-consider)
 - [Kubernetes And Databases](https://www.magalix.com/blog/kubernetes-and-database)
+- [Container Storage Interface (CSI) for Kubernetes GA](https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/)
 
 ## :small_blue_diamond: 3. Cloud Native Architecture - 16%
+
+<details>
+<summary>Characteristics of Cloud Native Architecture - CLICK ARROW TO READ MORE</summary>
+<br>
+
+- High level of Automation
+- Self-healing
+- Secure by default
+- Cost-efficient
+- Easy-to-maintain
+- Scalable
+
+</details>
+
+<details>
+<summary>Twelve-Factor App - CLICK ARROW TO READ MORE</summary>
+<br>
+
+
+**The Twelve Factors**
+
+I. Codebase
+One codebase tracked in revision control, many deploys
+II. Dependencies
+Explicitly declare and isolate dependencies
+III. Config
+Store config in the environment
+IV. Backing services
+Treat backing services as attached resources
+V. Build, release, run
+Strictly separate build and run stages
+VI. Processes
+Execute the app as one or more stateless processes
+VII. Port binding
+Export services via port binding
+VIII. Concurrency
+Scale out via the process model
+IX. Disposability
+Maximize robustness with fast startup and graceful shutdown
+X. Dev/prod parity
+Keep development, staging, and production as similar as possible
+XI. Logs
+Treat logs as event streams
+XII. Admin processes
+Run admin/management tasks as one-off processes
+
+</details>
 
 - [The Cloud Native Glossary](https://github.com/cncf/glossary/blob/main/cloudnative-glossary.pdf)
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
 - [The beginners guide to the CNCF landscape](https://www.cncf.io/blog/2018/11/05/beginners-guide-cncf-landscape/)
 - [Graduated and incubaring projects in the CNCF eco-system](https://www.cncf.io/projects/)
 - [Cloud Native Architecture Fundamentals](https://medium.com/walmartglobaltech/cloud-native-architecture-fundamentals-ac13f979916d)
+- [The Twelve-Factor App](https://12factor.net/)
+- [Architecting Kubernetes clusters — choosing the best autoscaling strategy](https://learnk8s.io/kubernetes-autoscaling-strategies)
 - [Introduction to Monolithic Architecture and MicroServices Architecture](https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63)
 - [Microservices Architecture](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
 - [Managing microservice with Istio service mesh](https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/)
