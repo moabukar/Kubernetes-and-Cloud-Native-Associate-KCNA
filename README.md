@@ -386,6 +386,11 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops)
 - [ArgoCD Kubernetes - YouTube playlist by Just me and Opensource](https://www.youtube.com/playlist?list=PL34sAs7_26wMW4bWKnMIfEd87aPuw75by)
 - [ArgoCon 2021 - YouTube playlist](https://www.youtube.com/playlist?list=PLGHfqDpnXFXKwNGO_8usFuTO-rIHNyefC)
+- [Guide to GitOps by Weave works](https://www.weave.works/technologies/gitops/)
+- [GitOps on Kubernetes: Deciding Between Argo CD and Flux](https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux/)
+- [Argo CD vs Flux CD — Right GitOps tool for your Kubernetes cluster](https://rajputvaibhav.medium.com/argo-cd-vs-flux-cd-right-gitops-tool-for-your-kubernetes-cluster-c71cff489d26)
+- [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)
+- [GitOps tools in comparison by cloudogu](https://cloudogu.com/en/blog/gitops-tools)
 
 ### 5.3 CI/CD
 
