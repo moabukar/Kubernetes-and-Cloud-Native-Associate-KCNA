@@ -352,6 +352,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 
 ### 4.1 Telemetry & Observability
 
+- [The Cloud Native Landscape: Observability & Analysis](https://thenewstack.io/the-cloud-native-landscape-observability-and-analysis/)
 - [What is Telemetry? The Guide to Application Monitoring](https://www.sumologic.com/insight/what-is-telemetry/)
 - [Tools for Monitoring Resources](https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/)
 - [What is OpenTelemetry and why is it the future of instrumentation?](https://www.cncf.io/blog/2021/08/06/what-is-opentelemetry-and-why-is-it-the-future-of-instrumentation/)
@@ -359,6 +360,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Getting started with OpenTelemetry on Kubernetes](https://signoz.io/blog/opentelemetry-kubernetes/)
 - [CNCF Advances OpenTelemetry Initiative](https://devops.com/cncf-advances-opentelemetry-initiative/)
 - [Splunk Donates eBPF Telemetry Data Collector to CNCF](https://devops.com/splunk-donates-ebpf-telemetry-data-collector-to-cncf/)
+- [Use the native logging mechanisms of containers](https://cloud.google.com/architecture/best-practices-for-operating-containers#use_the_native_logging_mechanisms_of_containers)
 
 ### 4.2 Prometheus
 
@@ -368,6 +370,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [What is Prometheus and Why Should You Use It?](https://opsani.com/resources/what-is-prometheus-and-why-should-you-use-it/)
 - [Metrics For Kubernetes System Components](https://kubernetes.io/docs/concepts/cluster-administration/system-metrics/)
 - [Query Examples from Prometheus](https://prometheus.io/docs/prometheus/latest/querying/examples/)
+- [Prometheus Cheat Sheet - Basics (Metrics, Labels, Time Series, Scraping)](https://iximiuz.com/en/posts/prometheus-metrics-labels-time-series/)
 - [Jaeger: open source, end-to-end distributed tracing](https://www.jaegertracing.io/)
 
 ### 4.3 Cost Management
@@ -375,6 +378,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Cost management for Kubernetes](https://www.redhat.com/en/technologies/cloud-computing/openshift/cost-management)
 - [Kubernetes Cost Analysis: Manage Your Kubernetes Costs](https://harness.io/blog/kubernetes-cost-analysis/)
 - [Kubernetes Cost Management and Analysis Guide](https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b)
+- [Cloud cost optimization: principles for lasting success](https://cloud.google.com/blog/topics/cost-management/principles-of-cloud-cost-optimization)
 
 ## :small_blue_diamond: 5. Cloud Native Application Delivery - 8%
 
@@ -399,7 +403,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Why is a PULL vs a PUSH pipeline important?](https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important)
 - [Push vs. Pull in GitOps: Is There Really a Difference?](https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/)
 - [ArgoCD Architecture](https://argo-cd.readthedocs.io/en/stable/operator-manual/architecture/)
-- []()
+
 ### 5.3 CI/CD
 
 - [Kubernetes CICD - CI/CD for Kubernetes | Weaveworks](https://www.weave.works/technologies/ci-cd-for-kubernetes/)
