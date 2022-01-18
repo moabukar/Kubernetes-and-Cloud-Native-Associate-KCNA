@@ -53,6 +53,12 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 - CNI = Container Network Interface
 - CI/CD = Continuous Integration & Continuous Deployment
 - RBAC = Role Based Access
+- OCI = Open Container Initiative
+- CRI = Container Runtime Interface
+- SMI = Service Mesh Interface
+- SLO = Service Level Objectives
+- SLI = Service Level Indicators
+- SLA = Service Level Agreements
 
 ## :small_blue_diamond: 1. Kubernetes Fundamentals - 46%
 
@@ -282,14 +288,19 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Network Policies in K8s](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [Services, Load Balancing and Networking](https://kubernetes.io/docs/concepts/services-networking/)
 - [Container Networking From Scratch](https://www.youtube.com/watch?v=6v_BDHIgOY8)
-
+- [CNI - the Container Network Interface - GitHub](https://github.com/containernetworking/cni)
 ### 2.5 Service Mesh
+
+<p align="center">
+  <img width="240" src="./pics/Istio.png">
+</p>
 
 - [What's a service mesh? (REDHAT)](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh)
 - [What Is a Service Mesh? (NGINX)](https://www.nginx.com/blog/what-is-a-service-mesh/)
 - [The Istio service mesh](https://istio.io/latest/about/service-mesh/)
 - [Istio & Service Mesh - simply explained in 15 mins](https://www.youtube.com/watch?v=16fgzklcF7Y)
 - [Managing microservice with Istio service mesh](https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/)
+- [Istio Architecture](https://istio.io/v1.10/docs/ops/deployment/architecture/)
 
 ### 2.6 Storage
 
@@ -405,6 +416,11 @@ Reference: https://12factor.net/
 - [Navigating open standards for Kubernetes](https://www.information-age.com/navigating-open-standards-for-kubernetes-123492463/)
 - [Open standards can make or break a Kubernetes implementation](https://morioh.com/p/02a05107d000)
 - [Three tips to implement Kubernetes with open standards](https://techtelegraph.co.uk/three-tips-to-implement-kubernetes-with-open-standards/)
+- [Open Container Initiative](https://opencontainers.org/)
+- [CNI - the Container Network Interface](https://github.com/containernetworking/cni)
+- [Container Runtime Interface (CRI) – a plugin interface which enables kubelet to use a wide variety of container runtimes - GitHub](https://github.com/kubernetes/cri-api)
+ - [Container Storage Interface (CSI) Specification - GitHub](https://github.com/container-storage-interface/spec)
+ - [A standard interface for service meshes on Kubernetes](https://smi-spec.io/)
 
 ## :small_blue_diamond: 4. Cloud Native Observability - 8%
 
