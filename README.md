@@ -380,6 +380,8 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 
 - [Continuous delivery at cloud native speed](https://www.weave.works/use-cases/application-delivery/)
 - [What is Helm](https://helm.sh/)
+- [What is CI/CD? by RedHat](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+- [What is Infrastructure as Code (IaC)?](https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac)
 
 ### 5.2 GitOps
 
@@ -391,6 +393,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Argo CD vs Flux CD — Right GitOps tool for your Kubernetes cluster](https://rajputvaibhav.medium.com/argo-cd-vs-flux-cd-right-gitops-tool-for-your-kubernetes-cluster-c71cff489d26)
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)
 - [GitOps tools in comparison by cloudogu](https://cloudogu.com/en/blog/gitops-tools)
+- [Flux vs ArgoCD](https://www.sgmoratilla.com/2021-10-28-flux-vs-argocd/)
 
 ### 5.3 CI/CD
 
