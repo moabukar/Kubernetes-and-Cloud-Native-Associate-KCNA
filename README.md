@@ -7,7 +7,7 @@
   <img width="180" src="./pics/KCNA-logo.jpeg">
 </p>
 
-- Note: A documentation of notes & useful resources to help you prepare for the KCNA. Feel free to share them :)
+Note: A documentation of notes & useful resources to help you prepare for the KCNA. Feel free to share them :)
 
 The KCNA is a certification aimed for individuals who want to advance to the professional level by demonstrating an understanding of the core knowledge and abilities of Kubernetes. This certification is ideal for students learning about or candidates interested in working with cloud native technologies. [KCNA](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
 
