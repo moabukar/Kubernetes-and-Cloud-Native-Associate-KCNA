@@ -64,18 +64,13 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 ## :small_blue_diamond: 1. Kubernetes Fundamentals - 46%
 
 ### 1.1 Fundamental Kuberenetes resources
-
-<details>
-<summary>EXAMPLE - CLICK ARROW TO READ MORE</summary>
-<br>
-
-EXAMPLE
+Click arrow to read more
 
 </details>
 
 - [Pods in Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
 <details>
-<summary>Pods in K8s - CLICK ARROW TO READ MORE</summary>
+<summary>Pods in K8s - Click arrow to read more</summary>
 <br>
 
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
@@ -84,7 +79,7 @@ Pods are the smallest deployable units of computing that you can create and mana
 
 - [Deployments in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 <details>
-<summary>Deployments in K8s - CLICK ARROW TO READ MORE</summary>
+<summary>Deployments in K8s - Click arrow to read more</summary>
 <br>
 
 A Deployment provides declarative updates for Pods and ReplicaSets.
@@ -94,7 +89,7 @@ You describe a desired state in a Deployment, and the Deployment Controller chan
 
 - [Services in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service/)
 <details>
-<summary>Services in K8s - CLICK ARROW TO READ MORE</summary>
+<summary>Services in K8s - Click arrow to read more</summary>
 <br>
 
 An abstract way to expose an application running on a set of Pods as a network service.
@@ -114,7 +109,7 @@ Reference: https://kubernetes.io/docs/concepts/services-networking/service/
 
 - [ReplicaSets in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
 <details>
-<summary>ReplicaSets in K8s - CLICK ARROW TO READ MORE</summary>
+<summary>ReplicaSets in K8s - Click arrow to read more</summary>
 <br>
 
 A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods.
@@ -123,7 +118,7 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 
 <details>
 
-<summary>Headless Services - CLICK ARROW TO READ MORE</summary>
+<summary>Headless Services - Click arrow to read more</summary>
 <br>
 
 Sometimes you don't need load-balancing and a single Service IP. In this case, you can create what are termed "headless" Services, by explicitly specifying "None" for the cluster IP (.spec.clusterIP).
@@ -144,7 +139,7 @@ You can use a headless Service to interface with other service discovery mechani
 
 <details>
 
-<summary>K8s components - CLICK ARROW TO READ MORE</summary>
+<summary>K8s components - Click arrow to read more</summary>
 <br>
 
 ***Control Plane Components***
@@ -193,7 +188,7 @@ kube-proxy maintains network rules on nodes. These network rules allow network c
 - [Control Plane-Node Communication](https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/)
 
 <details>
-<summary>K8s API - CLICK ARROW TO READ MORE</summary>
+<summary>K8s API - Click arrow to read more</summary>
 <br>
 
 
@@ -218,7 +213,7 @@ Most operations can be performed through the kubectl command-line interface or o
 
 
 <details>
-<summary>Containers - CLICK ARROW TO READ MORE</summary>
+<summary>Containers - Click arrow to read more</summary>
 <br>
 
 Containers are a form of operating system virtualization. A single container might be used to run anything from a small microservice or software process to a larger application. Inside a container are all the necessary executables, binary code, libraries, and configuration files. Compared to server or machine virtualization approaches, however, containers do not contain operating system images. 
@@ -319,7 +314,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 ## :small_blue_diamond: 3. Cloud Native Architecture - 16%
 
 <details>
-<summary>Characteristics of Cloud Native Architecture - CLICK ARROW TO READ MORE</summary>
+<summary>Characteristics of Cloud Native Architecture - Click arrow to read more</summary>
 <br>
 
 - High level of Automation
@@ -332,7 +327,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 </details>
 
 <details>
-<summary>Twelve-Factor App - CLICK ARROW TO READ MORE</summary>
+<summary>Twelve-Factor App - Click arrow to read more</summary>
 <br>
 
 
