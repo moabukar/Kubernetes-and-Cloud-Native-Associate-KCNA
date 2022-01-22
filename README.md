@@ -512,6 +512,7 @@ Reference: https://12factor.net/
 ## Useful training material
 
 - [Kubernetes and Cloud Native Essentials by The Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/)
+- [Kubernetes and Cloud Native Associate (KCNA) Practice Exams on Udemy by Andrew Brown](https://www.udemy.com/course/kubernetes-and-cloud-native-associate-kcna/)
 - [Introduction to GitOps by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/)
 - [Introduction to DevOps & Site Reliability Engineering by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/)
 - [Oh My Git! An open source game about learning Git!](https://ohmygit.org/)
