@@ -516,7 +516,6 @@ Reference: https://12factor.net/
 - [Introduction to DevOps & Site Reliability Engineering by The Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/)
 - [Oh My Git! An open source game about learning Git!](https://ohmygit.org/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
-- []()
 
 ## Useful reading material
 
