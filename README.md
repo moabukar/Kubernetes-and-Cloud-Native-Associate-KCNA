@@ -126,6 +126,23 @@ You can use a headless Service to interface with other service discovery mechani
 
 </details>
 
+#### Useful Kubernetes commands using kubectl
+
+```sh
+
+kubectl get pods (obtain/list pods in current namespace)
+
+kubectl get pods -A OR kubectl get pods --all-namespaces (obtain pods in all namespaces)
+
+kubectl api-resources (obtain API resources that are retrievable using the kubect commands)
+
+kubectl run nginx --image=nginx (run a pod named nginx using the nginx image)
+
+kubectl create deploy kcna --image=nginx (create a deployment named "kcna" with the nginx image)
+
+kubectl create deploy kcna --image=nginx --replicas=5 (create a deployment named "kcna" with the nginx image that deploys 5 pods (replicas))
+
+```
 
 
 ### 1.2 Kubernetes Architecture
