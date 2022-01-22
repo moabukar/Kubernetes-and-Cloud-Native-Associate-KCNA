@@ -64,7 +64,6 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 ## :small_blue_diamond: 1. Kubernetes Fundamentals - 46%
 
 ### 1.1 Fundamental Kuberenetes resources
-Click arrow to read more
 
 </details>
 
