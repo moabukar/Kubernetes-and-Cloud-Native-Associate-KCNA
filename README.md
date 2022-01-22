@@ -488,7 +488,7 @@ Reference: https://12factor.net/
 - [Kubernetes CI/CD Best Practices](https://harness.io/blog/kubernetes-ci-cd-best-practices/)
 - [CI/CD Pipelines with Kubernetes | Best Practices and Tools](https://www.containiq.com/post/cicd-pipelines-with-kubernetes)
 
-# [Practice questions - Click this for practice questions (COMING SOON)](./mock-exam-questions/questions.md)
+# [Test your knowledge - Click this for practice questions](./mock-exam-questions/questions.md)
 
 ## Slack
 
