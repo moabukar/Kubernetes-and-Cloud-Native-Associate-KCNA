@@ -56,7 +56,7 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 - CSI = Container Storage Interface
 - CNI = Container Network Interface
 - CI/CD = Continuous Integration & Continuous Deployment
-- RBAC = Role Based Access
+- RBAC = Role Based Access Control
 - OCI = Open Container Initiative
 - CRI = Container Runtime Interface
 - SMI = Service Mesh Interface
