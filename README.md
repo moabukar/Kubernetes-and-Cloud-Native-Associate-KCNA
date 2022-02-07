@@ -507,7 +507,8 @@ Reference: https://12factor.net/
 ## Slack
 
 1. [Kubernetes Community - #kcna-exam-prep](https://kubernetes.slack.com)
-1. [Kubernetes Community](https://kubernauts-slack-join.herokuapp.com/)
+2. [Kubernetes Community](https://kubernauts-slack-join.herokuapp.com/)
+3. [Cloud Native Mentoring - #kcna](https://join.slack.com/t/cloudnative-mentoring/shared_invite/zt-119bf6kae-bSGp7NQYrG~FZmjZjhZ~QA)
 
 ## Useful training material
 
@@ -540,6 +541,9 @@ Reference: https://12factor.net/
 - [KCNA breakdown by Saiyam Pathak](https://www.youtube.com/watch?v=iGkFHB1kFZ0)
 - [Open Source Values & Advocacy & Deep Dive KCNA Exam | CLOUDNATIVE.FM Ep 31](https://www.youtube.com/watch?v=wPbsvF_SGmc)
 - [KCNA Deep Dive by Katie Gamanji - The CLOUDNATIVEFM With SAIM ](https://www.youtube.com/watch?v=wPbsvF_SGmc)
+- [KCNA Prep - Kubernetes Fundamentals Part 1 ](https://www.youtube.com/watch?v=wnkium96ZVk)
+- [KCNA Prep - Kubernetes Fundamentals Part 2 ](https://www.youtube.com/watch?v=ZwCpgLeyKKo)
+
 
 ## Useful Kubernetes repos + Next steps?
 
