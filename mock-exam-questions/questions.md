@@ -174,7 +174,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 15. Which access control componenet of Kubernetes is responsible for authorisation and deciedes what a user is allowed to do? </summary>
+<summary> :small_blue_diamond: 15. Which access control component of Kubernetes is responsible for authorisation and deciedes what a user is allowed to do? </summary>
 <br>
 
 1. Config Maps
@@ -199,7 +199,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 17. Which control plane componenet is responsible for scheduling pods? </summary>
+<summary> :small_blue_diamond: 17. Which control plane component is responsible for scheduling pods? </summary>
 <br>
 
 1. kubelet
@@ -223,7 +223,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 19. What is the command to list all the availabe objects in your Kuberenetes cluster ?  </summary>
+<summary> :small_blue_diamond: 19. What is the command to list all the available objects in your Kuberenetes cluster ?  </summary>
 <br>
 
 1. kubectl list api-resources
