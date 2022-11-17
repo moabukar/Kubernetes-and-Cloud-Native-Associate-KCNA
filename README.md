@@ -253,6 +253,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Best practices for creating Dockerfiles](https://www.youtube.com/watch?v=JofsaZ3H1qM)
 - [Containers vs VMS](https://www.youtube.com/watch?v=cjXI-yxqGTI)
 - [Container Images](https://kubernetes.io/docs/concepts/containers/images/)
+- [Kubernetes Tutorial for Beginners – Basic Concepts & Examples](https://spacelift.io/blog/kubernetes-tutorial)
 
 ### 1.5 Scheduling
 
