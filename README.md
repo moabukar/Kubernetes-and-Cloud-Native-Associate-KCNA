@@ -48,6 +48,7 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 
 ### Useful keys & Common accronyms in Kubernetes
 
+```sh
 - K8s = Kubernetes
 - CNCF = Cloud Native Computing Foundation
 - NetPol = Network Policies
@@ -63,6 +64,7 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 - SLO = Service Level Objectives
 - SLI = Service Level Indicators
 - SLA = Service Level Agreements
+```
 
 ## :small_blue_diamond: 1. Kubernetes Fundamentals - 46%
 
@@ -261,6 +263,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Assigning Pods to Nodes](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/)
 - [Scheduling framework](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/)
 - [How the K8s scheduler works](https://www.youtube.com/watch?v=rDCWxkvPlAw)
+ 
 
 ## :small_blue_diamond: 2. Container Orchestration - 22%
 
@@ -280,6 +283,8 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Kubernetes is deprecating Docker: what you need to know](https://acloudguru.com/blog/engineering/kubernetes-is-deprecating-docker-what-you-need-to-know)
 - [Rancher Desktop – An Open Source App for Desktop Kubernetes and Container Management](https://www.suse.com/c/rancher_blog/rancher-desktop-an-open-source-app-for-desktop-kubernetes-and-container-management/)
 - [Rancher Desktop GitHub](https://github.com/rancher-sandbox/rancher-desktop)
+
+
 ### 2.3 Security
 
 - [The 4C's of Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
