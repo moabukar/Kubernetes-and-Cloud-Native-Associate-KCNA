@@ -1,0 +1,1534 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Useful notes for the KCNA - Kubernetes and Cloud Native Associate">
+      
+      
+        <meta name="author" content="Mo Abukar">
+      
+      
+        <link rel="canonical" href="https://moabukar.github.io/Kubernetes-and-Cloud-Native-Associate-KCNA/">
+      
+      
+      
+        <link rel="next" href="kcna/questions/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+    
+    
+      
+        <title>KCNA</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.fad675c6.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#kubernetes-and-cloud-native-associate-kcna" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="KCNA" class="md-header__button md-logo" aria-label="KCNA" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KCNA
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="dark-blue" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/moabukar/Kubernetes-and-Cloud-Native-Associate-KCNA" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="kcna/questions/" class="md-tabs__link">
+          
+  
+  KCNA
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="CONTRIBUTING/" class="md-tabs__link">
+        
+  
+    
+  
+  Contribute
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="CODE_OF_CONDUCT/" class="md-tabs__link">
+        
+  
+    
+  
+  Code of Conduct
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="KCNA" class="md-nav__button md-logo" aria-label="KCNA" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    KCNA
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/moabukar/Kubernetes-and-Cloud-Native-Associate-KCNA" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exam-brief" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exam Brief
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kcna-topics-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      KCNA topics overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions-for-kcna" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practice questions for KCNA
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Practice questions for KCNA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extra-helpful-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extra helpful materials
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useful-keys-common-accronyms-in-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Useful keys &amp; Common accronyms in Kubernetes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-kubernetes-fundamentals-46" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Kubernetes Fundamentals - 46%
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Kubernetes Fundamentals - 46%">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-fundamental-kuberenetes-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Fundamental Kuberenetes resources
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 Fundamental Kuberenetes resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#useful-kubernetes-commands-using-kubectl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Useful Kubernetes commands using kubectl
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-kubernetes-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Kubernetes Architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Containers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-scheduling" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 Scheduling
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-container-orchestration-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Container Orchestration - 22%
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Container Orchestration - 22%">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-containers-orchestration-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Containers Orchestration Fundamentals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-runtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Runtime
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Networking
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-service-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5 Service Mesh
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 Storage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-cloud-native-architecture-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Cloud Native Architecture - 16%
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cloud Native Architecture - 16%">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-autoscaling" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Autoscaling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Serverless
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-community-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Community &amp; Governance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-roles-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Roles &amp; Personas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-open-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 Open Standards
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-cloud-native-observability-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Cloud Native Observability - 8%
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Cloud Native Observability - 8%">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-telemetry-observability" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Telemetry &amp; Observability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-prometheus" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Prometheus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-cost-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Cost Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cloud-native-application-delivery-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Cloud Native Application Delivery - 8%
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Cloud Native Application Delivery - 8%">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-application-delivery-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Application Delivery Fundamentals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-gitops" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 GitOps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-cicd" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 CI/CD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    KCNA
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            KCNA
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kcna/questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kcna/answers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Answers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CONTRIBUTING/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CODE_OF_CONDUCT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<p><a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" /></a>
+<a href="http://makeapullrequest.com"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /></a></p>
+<h1 id="kubernetes-and-cloud-native-associate-kcna">Kubernetes-and-Cloud-Native-Associate KCNA</h1>
+<p align="center">
+  <img width="180" src="./assets/img/KCNA-logo.jpeg">
+</p>
+
+<p>Note: A documentation of notes &amp; curated useful resources to help you prepare for the Kubernetes and Cloud Native Associate Exam <a href="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/">(KCNA)</a> Feel free to share them :)</p>
+<p>For any fixes, updates or new additions to the syllabus, please raise an issue or make a pull-request (PR). Thank you! </p>
+<ul>
+<li>Regardless of you sitting the KCNA exam or not, once you have studied these topics, you will have a good overall understanding of the Cloud-Native, Containers and Kubernetes eco-system. What matters is that you enjoy the learning process. Goodluck on your learning journey!</li>
+</ul>
+<p>The KCNA is a certification aimed for individuals who want to advance to the professional level by demonstrating an understanding of the core knowledge and abilities of Kubernetes. This certification is ideal for students learning about or candidates interested in working with cloud native technologies. </p>
+<h2 id="exam-brief">Exam Brief</h2>
+<ul>
+<li>Duration : 1.5 hours</li>
+</ul>
+<!-- Number of questions : ??? Multiple choice questions -->
+<ul>
+<li>Passing score: 75%</li>
+<li>Certification validity: 3 years</li>
+<li>Prerequisite: None</li>
+<li>Cost: $250 USD, 1 year exam eligibility, with a free retake within the year.</li>
+<li>Result: Emailed 24 hours after exam completion</li>
+<li><a href="https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf">Official KCNA curriculum</a></li>
+<li>The exam consists of around 60 MCQ questions.</li>
+</ul>
+<p><em>Linux Foundation offer several discounts around the year such as CyberMonday, Kubecon and various other events - ensure to utilise these</em></p>
+<h2 id="kcna-topics-overview">KCNA topics overview</h2>
+<ul>
+<li>[X] <a href="#small_blue_diamond-1-kubernetes-fundamentals---46">Kubernetes Fundamentals - 46%</a></li>
+<li>[X] <a href="#small_blue_diamond-2-container-orchestration---22">Container Orchestration - 22%</a></li>
+<li>[X] <a href="#small_blue_diamond-3-cloud-native-architecture---16">Cloud Native Architecture - 16%</a></li>
+<li>[X] <a href="#small_blue_diamond-4-cloud-native-observability---8">Cloud Native Observability - 8%</a></li>
+<li>[X] <a href="#small_blue_diamond-5-cloud-native-application-delivery---8">Cloud Native Application Delivery - 8%</a></li>
+</ul>
+<h2 id="practice-questions-for-kcna">Practice questions for KCNA</h2>
+<ul>
+<li>[X] <a href="./mock-exam-questions/questions.md">Practice questions</a></li>
+</ul>
+<h4 id="extra-helpful-materials">Extra helpful materials</h4>
+<ul>
+<li>[x] <a href="#slack">Slack</a></li>
+<li>[x] <a href="#books">Books</a></li>
+<li>[x] <a href="#useful-youtube-videos">Youtube Videos</a></li>
+</ul>
+<h3 id="useful-keys-common-accronyms-in-kubernetes">Useful keys &amp; Common accronyms in Kubernetes</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>-<span class="w"> </span><span class="nv">K8s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Kubernetes
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>-<span class="w"> </span><span class="nv">CNCF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Cloud<span class="w"> </span>Native<span class="w"> </span>Computing<span class="w"> </span>Foundation
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>-<span class="w"> </span><span class="nv">NetPol</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Network<span class="w"> </span>Policies
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>-<span class="w"> </span><span class="nv">PV</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Persistent<span class="w"> </span>Volumes
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>-<span class="w"> </span><span class="nv">PVC</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Persistent<span class="w"> </span>Volume<span class="w"> </span>Claims
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>-<span class="w"> </span><span class="nv">CSI</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Container<span class="w"> </span>Storage<span class="w"> </span>Interface
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>-<span class="w"> </span><span class="nv">CNI</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Container<span class="w"> </span>Network<span class="w"> </span>Interface
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>-<span class="w"> </span>CI/CD<span class="w"> </span><span class="o">=</span><span class="w"> </span>Continuous<span class="w"> </span>Integration<span class="w"> </span><span class="p">&amp;</span><span class="w"> </span>Continuous<span class="w"> </span>Deployment
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>-<span class="w"> </span><span class="nv">RBAC</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Role<span class="w"> </span>Based<span class="w"> </span>Access<span class="w"> </span>Control
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>-<span class="w"> </span><span class="nv">OCI</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Open<span class="w"> </span>Container<span class="w"> </span>Initiative
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>-<span class="w"> </span><span class="nv">CRI</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Container<span class="w"> </span>Runtime<span class="w"> </span>Interface
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>-<span class="w"> </span><span class="nv">SMI</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Service<span class="w"> </span>Mesh<span class="w"> </span>Interface
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>-<span class="w"> </span><span class="nv">SLO</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Service<span class="w"> </span>Level<span class="w"> </span>Objectives
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>-<span class="w"> </span><span class="nv">SLI</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Service<span class="w"> </span>Level<span class="w"> </span>Indicators
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>-<span class="w"> </span><span class="nv">SLA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Service<span class="w"> </span>Level<span class="w"> </span>Agreements
+</code></pre></div>
+<h2 id="1-kubernetes-fundamentals-46">1. Kubernetes Fundamentals - 46%</h2>
+<h3 id="11-fundamental-kuberenetes-resources">1.1 Fundamental Kuberenetes resources</h3>
+</details>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/pods/">Pods in Kubernetes</a></li>
+</ul>
+<details>
+<summary>Pods in K8s - Click arrow to read more</summary>
+<br>
+
+Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
+
+</details>
+
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/">Deployments in Kubernetes</a></li>
+</ul>
+<details>
+<summary>Deployments in K8s - Click arrow to read more</summary>
+<br>
+
+A Deployment provides declarative updates for Pods and ReplicaSets.
+
+You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate. You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments.
+</details>
+
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/service/">Services in Kubernetes</a></li>
+</ul>
+<details>
+<summary>Services in K8s - Click arrow to read more</summary>
+<br>
+
+An abstract way to expose an application running on a set of Pods as a network service.
+
+Types of Services:
+ClusterIP: Exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. This is the default ServiceType.
+
+NodePort: Exposes the Service on each Node's IP at a static port (the NodePort). A ClusterIP Service, to which the NodePort Service routes, is automatically created. You'll be able to contact the NodePort Service, from outside the cluster, by requesting <NodeIP>:<NodePort>.
+
+LoadBalancer: Exposes the Service externally using a cloud provider's load balancer. NodePort and ClusterIP Services, to which the external load balancer routes, are automatically created.
+
+ExternalName: Maps the Service to the contents of the externalName field (e.g. foo.bar.example.com), by returning a CNAME record with its value. No proxying of any kind is set up.
+
+Reference: https://kubernetes.io/docs/concepts/services-networking/service/
+
+</details>
+
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/">ReplicaSets in Kubernetes</a></li>
+</ul>
+<details>
+<summary>ReplicaSets in K8s - Click arrow to read more</summary>
+<br>
+
+A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods.
+
+</details>
+
+<details>
+
+<summary>Headless Services - Click arrow to read more</summary>
+<br>
+
+Sometimes you don't need load-balancing and a single Service IP. In this case, you can create what are termed "headless" Services, by explicitly specifying "None" for the cluster IP (.spec.clusterIP).
+
+You can use a headless Service to interface with other service discovery mechanisms, without being tied to Kubernetes' implementation.
+
+</details>
+
+<h4 id="useful-kubernetes-commands-using-kubectl">Useful Kubernetes commands using kubectl</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>kubectl<span class="w"> </span>get<span class="w"> </span>pods<span class="w"> </span><span class="o">(</span>obtain/list<span class="w"> </span>pods<span class="w"> </span><span class="k">in</span><span class="w"> </span>current<span class="w"> </span>namespace<span class="o">)</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>kubectl<span class="w"> </span>get<span class="w"> </span>pods<span class="w"> </span>-A<span class="w"> </span>OR<span class="w"> </span>kubectl<span class="w"> </span>get<span class="w"> </span>pods<span class="w"> </span>--all-namespaces<span class="w"> </span><span class="o">(</span>obtain<span class="w"> </span>pods<span class="w"> </span><span class="k">in</span><span class="w"> </span>all<span class="w"> </span>namespaces<span class="o">)</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>kubectl<span class="w"> </span>api-resources<span class="w"> </span><span class="o">(</span>obtain<span class="w"> </span>API<span class="w"> </span>resources<span class="w"> </span>that<span class="w"> </span>are<span class="w"> </span>retrievable<span class="w"> </span>using<span class="w"> </span>the<span class="w"> </span>kubect<span class="w"> </span>commands<span class="o">)</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>kubectl<span class="w"> </span>run<span class="w"> </span>nginx<span class="w"> </span>--image<span class="o">=</span>nginx<span class="w"> </span><span class="o">(</span>run<span class="w"> </span>a<span class="w"> </span>pod<span class="w"> </span>named<span class="w"> </span>nginx<span class="w"> </span>using<span class="w"> </span>the<span class="w"> </span>nginx<span class="w"> </span>image<span class="o">)</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>kubectl<span class="w"> </span>create<span class="w"> </span>deploy<span class="w"> </span>kcna<span class="w"> </span>--image<span class="o">=</span>nginx<span class="w"> </span><span class="o">(</span>create<span class="w"> </span>a<span class="w"> </span>deployment<span class="w"> </span>named<span class="w"> </span><span class="s2">&quot;kcna&quot;</span><span class="w"> </span>with<span class="w"> </span>the<span class="w"> </span>nginx<span class="w"> </span>image<span class="o">)</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>kubectl<span class="w"> </span>create<span class="w"> </span>deploy<span class="w"> </span>kcna<span class="w"> </span>--image<span class="o">=</span>nginx<span class="w"> </span>--replicas<span class="o">=</span><span class="m">5</span><span class="w"> </span><span class="o">(</span>create<span class="w"> </span>a<span class="w"> </span>deployment<span class="w"> </span>named<span class="w"> </span><span class="s2">&quot;kcna&quot;</span><span class="w"> </span>with<span class="w"> </span>the<span class="w"> </span>nginx<span class="w"> </span>image<span class="w"> </span>that<span class="w"> </span>deploys<span class="w"> </span><span class="m">5</span><span class="w"> </span>pods<span class="w"> </span><span class="o">(</span>replicas<span class="o">))</span>
+</code></pre></div>
+<h3 id="12-kubernetes-architecture">1.2 Kubernetes Architecture</h3>
+<p align="center">
+  <img width="360" src="./assets/img/k8s-architecture.jpeg.png">
+</p>
+
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/overview/components/">Kubernetes Components Reference</a></li>
+</ul>
+<details>
+
+<summary>K8s components - Click arrow to read more</summary>
+<br>
+
+***Control Plane Components***
+
+**kube-apiserver:**
+
+The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. The API server is the front end for the Kubernetes control plane.
+
+The main implementation of a Kubernetes API server is kube-apiserver. kube-apiserver is designed to scale horizontally—that is, it scales by deploying more instances. You can run several instances of kube-apiserver and balance traffic between those instances.
+
+**etcd**
+Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
+
+**kube-scheduler:**
+Control plane component that watches for newly created Pods with no assigned node, and selects a node for them to run on.
+
+**kube-controller-manager:**
+Control plane component that runs controller processes.
+
+Logically, each controller is a separate process, but to reduce complexity, they are all compiled into a single binary and run in a single process.
+
+Some types of these controllers are:
+
+Node controller: Responsible for noticing and responding when nodes go down.
+Job controller: Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.
+Endpoints controller: Populates the Endpoints object (that is, joins Services & Pods).
+Service Account & Token controllers: Create default accounts and API access tokens for new namespaces.
+
+**cloud-controller-manager:**
+A Kubernetes control plane component that embeds cloud-specific control logic. The cloud controller manager lets you link your cluster into your cloud provider's API, and separates out the components that interact with that cloud platform from components that only interact with your cluster.
+The cloud-controller-manager only runs controllers that are specific to your cloud provider. If you are running Kubernetes on your own premises, or in a learning environment inside your own PC, the cluster does not have a cloud controller manager.
+
+***Worker Node Components***
+
+**kubelet**
+An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod.
+
+**kube-proxy**
+kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept.
+
+kube-proxy maintains network rules on nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your cluster.
+
+</details>
+
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/architecture/nodes/">Nodes in K8s</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/">Control Plane-Node Communication</a></li>
+</ul>
+<details>
+<summary>K8s API - Click arrow to read more</summary>
+<br>
+
+
+**Kubernetes API**
+
+The core of Kubernetes' control plane is the API server. The API server exposes an HTTP API that lets end users, different parts of your cluster, and external components communicate with one another.
+
+The Kubernetes API lets you query and manipulate the state of API objects in Kubernetes (for example: Pods, Namespaces, ConfigMaps, and Events).
+
+Most operations can be performed through the kubectl command-line interface or other command-line tools, such as kubeadm, which in turn use the API. However, you can also access the API directly using REST calls.
+
+</details>
+
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/overview/kubernetes-api/">The Kubernetes API</a></li>
+<li><a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/">Kubernetes API server</a></li>
+</ul>
+<h3 id="14-containers">1.4 Containers</h3>
+<p align="center">
+  <img width="360" src="./assets/img/containervsvm.jpeg">
+</p>
+
+<details>
+<summary>Containers - Click arrow to read more</summary>
+<br>
+
+Containers are a form of operating system virtualization. A single container might be used to run anything from a small microservice or software process to a larger application. Inside a container are all the necessary executables, binary code, libraries, and configuration files. Compared to server or machine virtualization approaches, however, containers do not contain operating system images. 
+
+This makes them more lightweight and portable, with significantly less overhead. In larger application deployments, multiple containers may be deployed as one or more container clusters. Such clusters might be managed by a container orchestrator such as Kubernetes.
+
+Reference : https://www.netapp.com/devops-solutions/what-are-containers/
+
+</details>
+
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/containers/">What are Containers?</a></li>
+<li><a href="https://www.docker.com/resources/what-container">Containers</a></li>
+<li><a href="https://www.udemy.com/course/learn-kubernetes/">Kubernetes for the Absolute Beginners - Hands-on by Mumshad</a></li>
+<li><a href="https://www.ianlewis.org/en/what-are-kubernetes-pods-anyway">What are Kubernetes Pods Anyway?</a></li>
+<li><a href="https://k21academy.com/docker-kubernetes/what-are-containers/">Containers for Beginners</a></li>
+<li><a href="https://k21academy.com/docker-kubernetes/kubernetes-for-beginners/">Kubernetes for Beginners</a></li>
+<li><a href="https://www.youtube.com/watch?v=fqMOX6JJhGo">Docker Tutorial for Beginners</a> (OPTIONAL)</li>
+<li><a href="https://www.youtube.com/watch?v=JofsaZ3H1qM">Best practices for creating Dockerfiles</a></li>
+<li><a href="https://www.youtube.com/watch?v=cjXI-yxqGTI">Containers vs VMS</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/containers/images/">Container Images</a></li>
+<li><a href="https://spacelift.io/blog/kubernetes-tutorial">Kubernetes Tutorial for Beginners – Basic Concepts &amp; Examples</a></li>
+</ul>
+<h3 id="15-scheduling">1.5 Scheduling</h3>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/">The Kubernetes Scheduler</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/">Assigning Pods to Nodes</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/">Scheduling framework</a></li>
+<li><a href="https://www.youtube.com/watch?v=rDCWxkvPlAw">How the K8s scheduler works</a></li>
+</ul>
+<h2 id="2-container-orchestration-22">2. Container Orchestration - 22%</h2>
+<h3 id="21-containers-orchestration-fundamentals">2.1 Containers Orchestration Fundamentals</h3>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/">What is Kubernetes?</a></li>
+<li><a href="https://www.youtube.com/watch?v=kBF6Bvth0zw">Container Orchestration Explained</a></li>
+<li><a href="https://iximiuz.com/en/posts/containers-vs-pods/">Containers vs. Pods - Taking a Deeper Look</a></li>
+</ul>
+<h3 id="22-runtime">2.2 Runtime</h3>
+<ul>
+<li><a href="https://kubernetes.io/docs/setup/production-environment/container-runtimes/">Container runtimes</a></li>
+<li><a href="https://www.youtube.com/watch?v=RyXL1zOa8Bw">Making Sense of the Container Runtime Landscape in Kubernetes</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/architecture/cri/">Container Runtime Interface (CRI)</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/containers/runtime-class/">What are Runtime Classes?</a></li>
+<li><a href="https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/">Kubernetes is deprecating Docker as a container runtime after v1.20</a></li>
+<li><a href="https://acloudguru.com/blog/engineering/kubernetes-is-deprecating-docker-what-you-need-to-know">Kubernetes is deprecating Docker: what you need to know</a></li>
+<li><a href="https://www.suse.com/c/rancher_blog/rancher-desktop-an-open-source-app-for-desktop-kubernetes-and-container-management/">Rancher Desktop – An Open Source App for Desktop Kubernetes and Container Management</a></li>
+<li><a href="https://github.com/rancher-sandbox/rancher-desktop">Rancher Desktop GitHub</a></li>
+</ul>
+<h3 id="23-security">2.3 Security</h3>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/security/overview/">The 4C's of Cloud Native Security</a></li>
+</ul>
+<p align="center">
+  <img width="360" src="./assets/img/4c.jpeg">
+</p>
+
+<ul>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/">Securing a cluster</a></li>
+<li><a href="https://snyk.io/learn/cloud-native-security-for-cloud-native-applications/">Cloud native security guide for building secure applications</a></li>
+<li><a href="https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-security-best-practices-10-steps-to-securing-k8s/">Kubernetes Security Best Practices: 10 Steps to Securing K8s</a></li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html">Kubernetes Security Cheat Sheet</a></li>
+<li><a href="https://snyk.io/learn/kubernetes-security/">Kubernetes Security: Common Issues and Best Practices</a></li>
+<li><a href="https://www.trendmicro.com/en_gb/what-is/container-security/kubernetes.html">What is Kubernetes Container Security?</a></li>
+<li><a href="https://sysdig.com/learn-cloud-native/kubernetes-security/kubernetes-security-101/">Kubernetes Security 101: Fundamentals and Best Practices</a></li>
+<li><a href="https://www.youtube.com/watch?v=G3R24JSlGjY">Understand Role Based Access Control (RBAC) in Kubernetes</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/security/controlling-access/">Controlling access to the K8s API</a></li>
+</ul>
+<h3 id="24-networking">2.4 Networking</h3>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Cluster networking in K8s</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/network-policies/">Network Policies in K8s</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/">Services, Load Balancing and Networking</a></li>
+<li><a href="https://www.youtube.com/watch?v=6v_BDHIgOY8">Container Networking From Scratch</a></li>
+<li><a href="https://github.com/containernetworking/cni">CNI - the Container Network Interface - GitHub</a></li>
+</ul>
+<h3 id="25-service-mesh">2.5 Service Mesh</h3>
+<p align="center">
+  <img width="360" src="./assets/img/Istio.png">
+</p>
+
+<ul>
+<li><a href="https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh">What's a service mesh? (REDHAT)</a></li>
+<li><a href="https://www.nginx.com/blog/what-is-a-service-mesh/">What Is a Service Mesh? (NGINX)</a></li>
+<li><a href="https://istio.io/latest/about/service-mesh/">The Istio service mesh</a></li>
+<li><a href="https://www.youtube.com/watch?v=16fgzklcF7Y">Istio &amp; Service Mesh - simply explained in 15 mins</a></li>
+<li><a href="https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/">Managing microservice with Istio service mesh</a></li>
+<li><a href="https://istio.io/v1.10/docs/ops/deployment/architecture/">Istio Architecture</a></li>
+</ul>
+<h3 id="26-storage">2.6 Storage</h3>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/storage/">Storage in Kubernetes</a></li>
+<li><a href="https://cloud.netapp.com/blog/cvo-blg-kubernetes-storage-an-in-depth-look">What is Kubernetes Storage?</a></li>
+<li><a href="https://cloudian.com/guides/kubernetes-storage/kubernetes-storage-101-concepts-and-best-practices/">Kubernetes Storage 101: Concepts and Best Practices</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/storage/volumes/">Volumes in Kubernetes</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/">Persistent Volumes aka PVs in K8s</a></li>
+<li><a href="https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard/">Why Is Storage On Kubernetes So Hard?</a></li>
+<li><a href="https://www.cncf.io/blog/2020/04/28/a-complete-storage-guide-for-your-kubernetes-storage-problems/">A complete storage guide for your Kubernetes storage problems by CNCF</a></li>
+<li><a href="https://cloud.google.com/blog/products/databases/to-run-or-not-to-run-a-database-on-kubernetes-what-to-consider">To run or not to run a database on Kubernetes: What to consider</a></li>
+<li><a href="https://www.magalix.com/blog/kubernetes-and-database">Kubernetes And Databases</a></li>
+<li><a href="https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/">Container Storage Interface (CSI) for Kubernetes GA</a></li>
+</ul>
+<h2 id="3-cloud-native-architecture-16">3. Cloud Native Architecture - 16%</h2>
+<details>
+<summary>Characteristics of Cloud Native Architecture - Click arrow to read more</summary>
+<br>
+
+- High level of Automation
+- Self-healing
+- Secure by default
+- Cost-efficient
+- Easy-to-maintain
+- Scalable
+
+</details>
+
+<details>
+<summary>Twelve-Factor App - Click arrow to read more</summary>
+<br>
+
+
+**The Twelve Factors**
+
+- I. Codebase:
+One codebase tracked in revision control, many deploys
+- II. Dependencies:
+Explicitly declare and isolate dependencies
+- III. Config:
+Store config in the environment
+- IV. Backing services:
+Treat backing services as attached resources
+- V. Build, release, run:
+Strictly separate build and run stages
+- VI. Processes:
+Execute the app as one or more stateless processes
+- VII. Port binding:
+Export services via port binding
+- VIII. Concurrency:
+Scale out via the process model
+- IX. Disposability:
+Maximize robustness with fast startup and graceful shutdown
+- X. Dev/prod parity:
+Keep development, staging, and production as similar as possible
+- XI. Logs:
+Treat logs as event streams
+- XII. Admin processes:
+Run admin/management tasks as one-off processes
+
+Reference: https://12factor.net/
+
+</details>
+
+<ul>
+<li><a href="https://github.com/cncf/glossary/blob/main/cloudnative-glossary.pdf">The Cloud Native Glossary</a></li>
+<li><a href="https://landscape.cncf.io/">CNCF Cloud Native Interactive Landscape</a></li>
+<li><a href="https://www.cncf.io/blog/2018/11/05/beginners-guide-cncf-landscape/">The beginners guide to the CNCF landscape</a></li>
+<li><a href="https://www.cncf.io/projects/">Graduated and incubaring projects in the CNCF eco-system</a></li>
+<li><a href="https://medium.com/walmartglobaltech/cloud-native-architecture-fundamentals-ac13f979916d">Cloud Native Architecture Fundamentals</a></li>
+<li><a href="https://12factor.net/">The Twelve-Factor App</a></li>
+<li><a href="https://learnk8s.io/kubernetes-autoscaling-strategies">Architecting Kubernetes clusters — choosing the best autoscaling strategy</a></li>
+<li><a href="https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63">Introduction to Monolithic Architecture and MicroServices Architecture</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices">Microservices Architecture</a></li>
+<li><a href="https://kubernetes.io/blog/2017/05/managing-microservices-with-istio-service-mesh/">Managing microservice with Istio service mesh</a></li>
+<li><a href="https://cloud.google.com/learn/what-is-microservices-architecture">What is microservices architecture?</a></li>
+<li><a href="https://www.mulesoft.com/resources/api/microservices-vs-monolithic">Microservices vs Monolithic Architecture</a></li>
+</ul>
+<h3 id="31-autoscaling">3.1 Autoscaling</h3>
+<ul>
+<li><a href="https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/">Autoscaling in Kubernetes</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/">Horizontal Pod Autoscaling (HPA in K8s)</a></li>
+<li><a href="https://spot.io/resources/kubernetes-autoscaling-3-methods-and-how-to-make-them-great/">Kubernetes Autoscaling: 3 Methods and How to Make Them Great</a></li>
+<li><a href="https://www.replex.io/blog/kubernetes-in-production-best-practices-for-cluster-autoscaler-hpa-and-vpa">Kubernetes Autoscaling in Production: Best Practices for Cluster Autoscaler, HPA and VPA</a></li>
+<li><a href="https://cloud.google.com/kubernetes-engine/docs/concepts/horizontalpodautoscaler">Horizontal Pod autoscaling in GKE (GCP)</a></li>
+</ul>
+<h3 id="32-serverless">3.2 Serverless</h3>
+<ul>
+<li><a href="https://www.sumologic.com/blog/microservices-vs-serverless-architecture/">Microservices vs. Serverless Architecture</a></li>
+<li><a href="https://kubernetes.io/blog/2017/01/fission-serverless-functions-as-service-for-kubernetes/">Serverless Functions as a Service for Kubernetes</a></li>
+<li><a href="https://knative.dev/docs/">Serverless containers on K8s</a></li>
+<li><a href="https://github.com/knative">Knative GitHub</a></li>
+</ul>
+<h3 id="33-community-governance">3.3 Community &amp; Governance</h3>
+<ul>
+<li><a href="https://github.com/kubernetes/community/blob/master/governance.md">Community &amp; Governance in K8s (K8s GitHub)</a></li>
+<li><a href="https://kubernetes.io/community/">The Kubernetes Community</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes">The Official Kuberenetes GitHub</a></li>
+<li><a href="https://www.cncf.io/blog/2020/05/29/kubernetes-governance-what-you-should-know/">Kubernetes governance, what you should know</a></li>
+<li><a href="https://kubernetes.io/community/values/">Kubernetes Community Values</a></li>
+<li><a href="https://kubernetes.io/blog/2021/04/08/kubernetes-1-21-release-announcement/">Kubernetes 1.21: Power to the Community</a></li>
+<li><a href="https://www.replex.io/blog/kubernetes-in-production-best-practices-for-governance-cost-management-and-security-and-access-control">Kubernetes in Production: Best Practices for Governance, Cost Management, Security and Access Control</a></li>
+</ul>
+<h3 id="34-roles-personas">3.4 Roles &amp; Personas</h3>
+<ul>
+<li><a href="https://cluster-api.sigs.k8s.io/user/personas.html">Personas</a></li>
+<li><a href="https://cloud.redhat.com/blog/podcast-podctl-28-kubernetes-roles-personas">[Podcast] PodCTL #28 - Kubernetes Roles &amp; Personas</a></li>
+<li><a href="https://www.ibm.com/docs/en/cloud-paks/cp-management/1.3.0?topic=about-personas-use-cases">Personas and use cases</a></li>
+<li><a href="https://podctl.buzzsprout.com/110399/653300-kubernetes-roles-personas">PodCTL - Enterprise Kubernetes - podcast focused on Roles and Personas of K8s environments</a></li>
+</ul>
+<h3 id="35-open-standards">3.5 Open Standards</h3>
+<ul>
+<li><a href="https://www.information-age.com/navigating-open-standards-for-kubernetes-123492463/">Navigating open standards for Kubernetes</a></li>
+<li><a href="https://morioh.com/p/02a05107d000">Open standards can make or break a Kubernetes implementation</a></li>
+<li><a href="https://techtelegraph.co.uk/three-tips-to-implement-kubernetes-with-open-standards/">Three tips to implement Kubernetes with open standards</a></li>
+<li><a href="https://opencontainers.org/">Open Container Initiative</a></li>
+<li><a href="https://github.com/containernetworking/cni">CNI - the Container Network Interface</a></li>
+<li><a href="https://github.com/kubernetes/cri-api">Container Runtime Interface (CRI) – a plugin interface which enables kubelet to use a wide variety of container runtimes - GitHub</a></li>
+<li><a href="https://github.com/container-storage-interface/spec">Container Storage Interface (CSI) Specification - GitHub</a></li>
+<li><a href="https://smi-spec.io/">A standard interface for service meshes on Kubernetes</a></li>
+</ul>
+<h2 id="4-cloud-native-observability-8">4. Cloud Native Observability - 8%</h2>
+<h3 id="41-telemetry-observability">4.1 Telemetry &amp; Observability</h3>
+<ul>
+<li><a href="https://thenewstack.io/the-cloud-native-landscape-observability-and-analysis/">The Cloud Native Landscape: Observability &amp; Analysis</a></li>
+<li><a href="https://www.sumologic.com/insight/what-is-telemetry/">What is Telemetry? The Guide to Application Monitoring</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/">Tools for Monitoring Resources</a></li>
+<li><a href="https://www.cncf.io/blog/2021/08/06/what-is-opentelemetry-and-why-is-it-the-future-of-instrumentation/">What is OpenTelemetry and why is it the future of instrumentation?</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents/">Migrating telemetry and security agents from dockershim</a></li>
+<li><a href="https://signoz.io/blog/opentelemetry-kubernetes/">Getting started with OpenTelemetry on Kubernetes</a></li>
+<li><a href="https://devops.com/cncf-advances-opentelemetry-initiative/">CNCF Advances OpenTelemetry Initiative</a></li>
+<li><a href="https://devops.com/splunk-donates-ebpf-telemetry-data-collector-to-cncf/">Splunk Donates eBPF Telemetry Data Collector to CNCF</a></li>
+<li><a href="https://cloud.google.com/architecture/best-practices-for-operating-containers#use_the_native_logging_mechanisms_of_containers">Use the native logging mechanisms of containers</a></li>
+</ul>
+<h3 id="42-prometheus">4.2 Prometheus</h3>
+<ul>
+<li><a href="https://prometheus.io/docs/introduction/overview/">What is Prometheus?</a></li>
+<li><a href="https://opensource.com/article/19/11/introduction-monitoring-prometheus">An introduction to monitoring with Prometheus</a></li>
+<li><a href="https://www.youtube.com/watch?v=h4Sl21AKiDg">How Prometheus Monitoring works | Prometheus Architecture explained by Nana Janashia</a></li>
+<li><a href="https://opsani.com/resources/what-is-prometheus-and-why-should-you-use-it/">What is Prometheus and Why Should You Use It?</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/cluster-administration/system-metrics/">Metrics For Kubernetes System Components</a></li>
+<li><a href="https://prometheus.io/docs/prometheus/latest/querying/examples/">Query Examples from Prometheus</a></li>
+<li><a href="https://iximiuz.com/en/posts/prometheus-metrics-labels-time-series/">Prometheus Cheat Sheet - Basics (Metrics, Labels, Time Series, Scraping)</a></li>
+<li><a href="https://www.jaegertracing.io/">Jaeger: open source, end-to-end distributed tracing</a></li>
+</ul>
+<h3 id="43-cost-management">4.3 Cost Management</h3>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/cost-management">Cost management for Kubernetes</a></li>
+<li><a href="https://harness.io/blog/kubernetes-cost-analysis/">Kubernetes Cost Analysis: Manage Your Kubernetes Costs</a></li>
+<li><a href="https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b">Kubernetes Cost Management and Analysis Guide</a></li>
+<li><a href="https://cloud.google.com/blog/topics/cost-management/principles-of-cloud-cost-optimization">Cloud cost optimization: principles for lasting success</a></li>
+</ul>
+<h2 id="5-cloud-native-application-delivery-8">5. Cloud Native Application Delivery - 8%</h2>
+<h3 id="51-application-delivery-fundamentals">5.1 Application Delivery Fundamentals</h3>
+<ul>
+<li><a href="https://www.weave.works/use-cases/application-delivery/">Continuous delivery at cloud native speed</a></li>
+<li><a href="https://helm.sh/">What is Helm</a></li>
+<li><a href="https://www.redhat.com/en/topics/devops/what-is-ci-cd">What is CI/CD? by RedHat</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac">What is Infrastructure as Code (IaC)?</a></li>
+</ul>
+<h3 id="52-gitops">5.2 GitOps</h3>
+<ul>
+<li><a href="https://www.redhat.com/en/topics/devops/what-is-gitops">What is GitOps?</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL34sAs7_26wMW4bWKnMIfEd87aPuw75by">ArgoCD Kubernetes - YouTube playlist by Just me and Opensource</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLGHfqDpnXFXKwNGO_8usFuTO-rIHNyefC">ArgoCon 2021 - YouTube playlist</a></li>
+<li><a href="https://www.weave.works/technologies/gitops/">Guide to GitOps by Weave works</a></li>
+<li><a href="https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux/">GitOps on Kubernetes: Deciding Between Argo CD and Flux</a></li>
+<li><a href="https://rajputvaibhav.medium.com/argo-cd-vs-flux-cd-right-gitops-tool-for-your-kubernetes-cluster-c71cff489d26">Argo CD vs Flux CD — Right GitOps tool for your Kubernetes cluster</a></li>
+<li><a href="https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools">FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?</a></li>
+<li><a href="https://cloudogu.com/en/blog/gitops-tools">GitOps tools in comparison by cloudogu</a></li>
+<li><a href="https://www.sgmoratilla.com/2021-10-28-flux-vs-argocd/">Flux vs ArgoCD</a></li>
+<li><a href="https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important">Why is a PULL vs a PUSH pipeline important?</a></li>
+<li><a href="https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/">Push vs. Pull in GitOps: Is There Really a Difference?</a></li>
+<li><a href="https://argo-cd.readthedocs.io/en/stable/operator-manual/architecture/">ArgoCD Architecture</a></li>
+</ul>
+<h3 id="53-cicd">5.3 CI/CD</h3>
+<ul>
+<li><a href="https://www.weave.works/technologies/ci-cd-for-kubernetes/">Kubernetes CICD - CI/CD for Kubernetes | Weaveworks</a></li>
+<li><a href="https://platform9.com/blog/kubernetes-for-ci-cd-at-scale/">Kubernetes for CI/CD at scale</a></li>
+<li><a href="https://ubuntu.com/blog/kubernetes-ci-cd-pipelines-what-why-and-how">Kubernetes CI/CD pipelines: What, why, and how</a></li>
+<li><a href="https://cloud.redhat.com/blog/top-open-source-ci/cd-tools-for-kubernetes-to-know">Top Open Source CI/CD Tools for Kubernetes to Know</a></li>
+<li><a href="https://harness.io/blog/kubernetes-ci-cd-best-practices/">Kubernetes CI/CD Best Practices</a></li>
+<li><a href="https://www.containiq.com/post/cicd-pipelines-with-kubernetes">CI/CD Pipelines with Kubernetes | Best Practices and Tools</a></li>
+</ul>
+<h1 id="test-your-knowledge-click-this-for-practice-questions"><a href="./mock-exam-questions/questions.md">Test your knowledge - Click this for practice questions</a></h1>
+<h2 id="slack">Slack</h2>
+<ol>
+<li><a href="https://kubernetes.slack.com">Kubernetes Community - #kcna-exam-prep</a></li>
+<li><a href="https://kubernauts-slack-join.herokuapp.com/">Kubernetes Community</a></li>
+<li><a href="https://join.slack.com/t/cloudnative-mentoring/shared_invite/zt-119bf6kae-bSGp7NQYrG~FZmjZjhZ~QA">Cloud Native Mentoring - #kcna</a></li>
+</ol>
+<h2 id="useful-training-material">Useful training material</h2>
+<ul>
+<li><a href="https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/">Kubernetes and Cloud Native Essentials by The Linux Foundation</a></li>
+<li><a href="https://www.udemy.com/course/kubernetes-and-cloud-native-associate-kcna/">Kubernetes and Cloud Native Associate (KCNA) Practice Exams on Udemy by Andrew Brown</a></li>
+<li><a href="https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/">Introduction to GitOps by The Linux Foundation</a></li>
+<li><a href="https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/">Introduction to DevOps &amp; Site Reliability Engineering by The Linux Foundation</a></li>
+<li><a href="https://ohmygit.org/">Oh My Git! An open source game about learning Git!</a></li>
+<li><a href="https://learngitbranching.js.org/">Learn Git Branching</a></li>
+<li><a href="https://acloudguru.com/course/kubernetes-and-cloud-native-associate-kcna">Kubernetes and Cloud Native Associate (KCNA)</a>  </li>
+</ul>
+<h2 id="useful-reading-material">Useful reading material</h2>
+<ul>
+<li><a href="https://www.pulumi.com/why-pulumi/delivering-cloud-native-infrastructure-as-code/">Delivering Cloud Native Infrastructure as Code by Pulumi</a></li>
+<li><a href="https://www.hashicorp.com/resources/unlocking-the-cloud-operating-model-provisioning">Unlocking the Cloud Operating Model: Provisioning</a></li>
+<li><a href="https://about.gitlab.com/blog/2020/07/06/beginner-guide-ci-cd/">GitLab’s guide to CI/CD for beginners</a></li>
+<li><a href="https://blog.bradmccoy.io/how-to-pass-your-kcna-exam-cf98cfa7d70f">How to Pass your KCNA Exam by Brad McCoy</a></li>
+<li><a href="https://medium.com/@marino.wijay/the-kcna-exam-a-quick-guide-to-kicking-off-your-k8s-and-cloud-native-journey-56a3a5be345">The KCNA Exam — A quick guide to kicking off your K8S and Cloud Native Journey by Marino Wijay</a></li>
+</ul>
+<h2 id="books">Books</h2>
+<ul>
+<li><a href="https://learning.oreilly.com/library/view/kubernetes-up-and/9781491935668/">Kubernetes: Up and Running by O’Reilly</a></li>
+<li><a href="https://blog.turbonomic.com/top-kubernetes-book">7 Best Books to Get You Started with Kubernetes</a></li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://k8s.io/docs">The Official Kubernetes Documentation</a></li>
+</ul>
+<h2 id="useful-youtube-vdeos">Useful Youtube vdeos</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=TtUMT5cnVO4">Kubernetes and Cloud Native Associate (KCNA) exam - Katie Gamanji, CNCF</a></li>
+<li><a href="https://www.youtube.com/watch?v=iGkFHB1kFZ0">KCNA breakdown by Saiyam Pathak</a></li>
+<li><a href="https://www.youtube.com/watch?v=wPbsvF_SGmc">Open Source Values &amp; Advocacy &amp; Deep Dive KCNA Exam | CLOUDNATIVE.FM Ep 31</a></li>
+<li><a href="https://www.youtube.com/watch?v=wPbsvF_SGmc">KCNA Deep Dive by Katie Gamanji - The CLOUDNATIVEFM With SAIM </a></li>
+<li><a href="https://www.youtube.com/watch?v=wnkium96ZVk">KCNA Prep - Kubernetes Fundamentals Part 1 </a></li>
+<li><a href="https://www.youtube.com/watch?v=ZwCpgLeyKKo">KCNA Prep - Kubernetes Fundamentals Part 2 </a></li>
+</ul>
+<h2 id="useful-kubernetes-repos-next-steps">Useful Kubernetes repos + Next steps?</h2>
+<ul>
+<li><a href="https://github.com/walidshaari/Kubernetes-Certified-Administrator">Kubernetes Certified Administrator by Walid Shaari</a></li>
+<li><a href="https://github.com/moabukar/CKA-Exercises">CKA Exercises</a></li>
+<li><a href="https://github.com/dgkanatsios/CKAD-exercises">CKAD Exercises</a></li>
+<li><a href="https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist">CKS repo by Walid Shaari</a></li>
+<li><a href="https://github.com/moabukar/CKS-Exercises-Certified-Kubernetes-Security-Specialist">CKS-Exercises</a></li>
+</ul>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      2023-12-04
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="https://github.com/moabukar"  target="_blank" rel="noopener">Mohamed Abukar</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/moabukar" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/moabukar_1" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/moabukar/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+        <script src="assets/js/hljs/highlight.pack.js"></script>
+      
+        <script src="assets/js/extra.js"></script>
+      
+    
+  </body>
+</html>

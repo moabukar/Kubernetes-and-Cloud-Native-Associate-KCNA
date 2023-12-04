@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://moabukar.github.io/Kubernetes-and-Cloud-Native-Associate-KCNA/</loc>
+         <lastmod>2023-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moabukar.github.io/Kubernetes-and-Cloud-Native-Associate-KCNA/CODE_OF_CONDUCT/</loc>
+         <lastmod>2023-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moabukar.github.io/Kubernetes-and-Cloud-Native-Associate-KCNA/CONTRIBUTING/</loc>
+         <lastmod>2023-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moabukar.github.io/Kubernetes-and-Cloud-Native-Associate-KCNA/kcna/answers/</loc>
+         <lastmod>2023-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://moabukar.github.io/Kubernetes-and-Cloud-Native-Associate-KCNA/kcna/questions/</loc>
+         <lastmod>2023-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
