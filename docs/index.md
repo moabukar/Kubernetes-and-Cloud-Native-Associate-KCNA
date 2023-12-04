@@ -153,7 +153,7 @@ kubectl create deploy kcna --image=nginx --replicas=5 (create a deployment named
 ### 1.2 Kubernetes Architecture
 
 <p align="center">
-  <img width="360" src="./pics/k8s-architecture.jpeg.png">
+  <img width="360" src="./assets/img/k8s-architecture.jpeg.png">
 </p>
 
 - [Kubernetes Components Reference](https://kubernetes.io/docs/concepts/overview/components/)
@@ -229,7 +229,7 @@ Most operations can be performed through the kubectl command-line interface or o
 ### 1.4 Containers
 
 <p align="center">
-  <img width="360" src="./pics/containervsvm.jpeg">
+  <img width="360" src="./assets/img/containervsvm.jpeg">
 </p>
 
 
@@ -290,7 +290,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [The 4C's of Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
 
 <p align="center">
-  <img width="360" src="./pics/4c.jpeg">
+  <img width="360" src="./assets/img/4c.jpeg">
 </p>
 
 - [Securing a cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
@@ -313,7 +313,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 ### 2.5 Service Mesh
 
 <p align="center">
-  <img width="360" src="./pics/Istio.png">
+  <img width="360" src="./assets/img/Istio.png">
 </p>
 
 - [What's a service mesh? (REDHAT)](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh)
