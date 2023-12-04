@@ -1,0 +1,50 @@
+div.md-content img {
+    border: 4px solid #ddd;
+    padding: 12px;
+  }
+  
+  .callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+  }
+  
+  .callout h4 {
+    margin-top: 0;
+    margin-bottom: 1px;
+  }
+  
+  .callout p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .callout code {
+    border-radius: 3px;
+  }
+  
+  .callout-info {
+    border-left-color: #428bca;
+  }
+  
+  .callout-info h4 {
+    color: #428bca;
+  }
+  
+  .callout-primary {
+    border-left-color: #5bc0de;
+  }
+  
+  .callout-primary h4 {
+    color: #5bc0de;
+  }
+  
+  .callout-danger {
+    border-left-color: #d9534f;
+  }
+  
+  .callout-danger h4 {
+    color: #d9534f;
+  }
+  
