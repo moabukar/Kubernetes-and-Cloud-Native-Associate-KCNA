@@ -4,7 +4,7 @@
 # Kubernetes-and-Cloud-Native-Associate KCNA
 
 <p align="center">
-  <img width="180" src="./pics/KCNA-logo.jpeg">
+  <img width="180" src="./assets/img/KCNA-logo.jpeg">
 </p>
 
 Note: A documentation of notes & curated useful resources to help you prepare for the Kubernetes and Cloud Native Associate Exam [(KCNA)](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/) Feel free to share them :)
