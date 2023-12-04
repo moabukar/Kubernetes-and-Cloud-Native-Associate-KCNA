@@ -66,7 +66,7 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 - SLA = Service Level Agreements
 ```
 
-## :small_blue_diamond: 1. Kubernetes Fundamentals - 46%
+## 1. Kubernetes Fundamentals - 46%
 
 ### 1.1 Fundamental Kuberenetes resources
 
@@ -265,7 +265,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [How the K8s scheduler works](https://www.youtube.com/watch?v=rDCWxkvPlAw)
  
 
-## :small_blue_diamond: 2. Container Orchestration - 22%
+## 2. Container Orchestration - 22%
 
 ### 2.1 Containers Orchestration Fundamentals
 
@@ -336,7 +336,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 - [Kubernetes And Databases](https://www.magalix.com/blog/kubernetes-and-database)
 - [Container Storage Interface (CSI) for Kubernetes GA](https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/)
 
-## :small_blue_diamond: 3. Cloud Native Architecture - 16%
+## 3. Cloud Native Architecture - 16%
 
 <details>
 <summary>Characteristics of Cloud Native Architecture - Click arrow to read more</summary>
@@ -443,7 +443,7 @@ Reference: https://12factor.net/
  - [Container Storage Interface (CSI) Specification - GitHub](https://github.com/container-storage-interface/spec)
  - [A standard interface for service meshes on Kubernetes](https://smi-spec.io/)
 
-## :small_blue_diamond: 4. Cloud Native Observability - 8%
+## 4. Cloud Native Observability - 8%
 
 ### 4.1 Telemetry & Observability
 
@@ -475,7 +475,7 @@ Reference: https://12factor.net/
 - [Kubernetes Cost Management and Analysis Guide](https://dev.to/cloudforecast/kubernetes-cost-management-and-analysis-guide-1e1b)
 - [Cloud cost optimization: principles for lasting success](https://cloud.google.com/blog/topics/cost-management/principles-of-cloud-cost-optimization)
 
-## :small_blue_diamond: 5. Cloud Native Application Delivery - 8%
+## 5. Cloud Native Application Delivery - 8%
 
 ### 5.1 Application Delivery Fundamentals
 

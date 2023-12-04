@@ -3,7 +3,7 @@
 Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
-<summary> :small_blue_diamond: 1. What is the smallest unit in Kubernetes?</summary>
+<summary> 1. What is the smallest unit in Kubernetes?</summary>
 <br>
 
 1. Docker
@@ -15,7 +15,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 2. What does CNCF stand for?</summary>
+<summary> 2. What does CNCF stand for?</summary>
 <br>
 
 1. Cloud Native Container Foundation
@@ -27,7 +27,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 3. What are the 4Cs of Cloud Native Security?</summary>
+<summary> 3. What are the 4Cs of Cloud Native Security?</summary>
 <br>
 
 1. Cluster, Cloud, Containers, Compute
@@ -39,7 +39,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 4. What is the most common autoscaling method in the world of cloud-native?</summary>
+<summary> 4. What is the most common autoscaling method in the world of cloud-native?</summary>
 <br>
 
 1. Horizontal Scaling
@@ -51,7 +51,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 5. What does serverless computing not need?</summary>
+<summary> 5. What does serverless computing not need?</summary>
 <br>
 
 1. Cloud
@@ -64,7 +64,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 <details close>
 
 
-<summary> :small_blue_diamond: 6. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
+<summary> 6. Which of the following is not a fundamental metric used in Site Reliability Engineering? </summary>
 <br>
 
 1. Service Level Objective (SLO)
@@ -76,7 +76,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 7. The Kubernetes object "Stateful Set" requires which service for the network identity of Pods? </summary>
+<summary> 7. The Kubernetes object "Stateful Set" requires which service for the network identity of Pods? </summary>
 <br>
 
 1. ClusterIP
@@ -88,7 +88,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 8. The Open Container Initiative (OCI) provides container standards for ? </summary>
+<summary> 8. The Open Container Initiative (OCI) provides container standards for ? </summary>
 <br>
 
 1. Runtime, Image, Distribution
@@ -100,7 +100,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 9. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
+<summary> 9. Which of the following Computing model doesn't require provisioning of infrastructure? </summary>
 <br>
 
 1. EC2 Instances
@@ -112,7 +112,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 10. What are the main part of a Service Mesh? </summary>
+<summary> 10. What are the main part of a Service Mesh? </summary>
 <br>
 
 1. Master plane and worker node
@@ -124,7 +124,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 11. Kubernetes was originally developed by who? </summary>
+<summary> 11. Kubernetes was originally developed by who? </summary>
 <br>
 
 1. Amazon
@@ -136,7 +136,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 12. What are the TWO types of Kubernetes nodes? Select TWO answers. </summary>
+<summary> 12. What are the TWO types of Kubernetes nodes? Select TWO answers. </summary>
 <br>
 
 1. Worker Node
@@ -149,7 +149,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 <details close>
 
 
-<summary> :small_blue_diamond: 13. What is the name of the agent that run on each Kubernetes worker node? </summary>
+<summary> 13. What is the name of the agent that run on each Kubernetes worker node? </summary>
 <br>
 
 1. etcd
@@ -162,7 +162,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 <details close>
 
 
-<summary> :small_blue_diamond: 14. Which of the following is not part of the Control Plane in Kubernetes? </summary>
+<summary> 14. Which of the following is not part of the Control Plane in Kubernetes? </summary>
 <br>
 
 1. etcd
@@ -174,7 +174,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 15. Which access control component of Kubernetes is responsible for authorisation and deciedes what a user is allowed to do? </summary>
+<summary> 15. Which access control component of Kubernetes is responsible for authorisation and deciedes what a user is allowed to do? </summary>
 <br>
 
 1. Config Maps
@@ -187,7 +187,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 <details close>
 
 
-<summary> :small_blue_diamond: 16. Which of the following container runtime is marked as deprecated by Kubernetes? </summary>
+<summary> 16. Which of the following container runtime is marked as deprecated by Kubernetes? </summary>
 <br>
 
 1. gVisor
@@ -199,7 +199,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 17. Which control plane component is responsible for scheduling pods? </summary>
+<summary> 17. Which control plane component is responsible for scheduling pods? </summary>
 <br>
 
 1. kubelet
@@ -211,7 +211,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 18. Select TWO commands which can be used to LIST all pods in all namespaces. </summary>
+<summary> 18. Select TWO commands which can be used to LIST all pods in all namespaces. </summary>
 <br>
 
 1. kubectl get pods
@@ -223,7 +223,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 19. What is the command to list all the available objects in your Kuberenetes cluster ?  </summary>
+<summary> 19. What is the command to list all the available objects in your Kuberenetes cluster ?  </summary>
 <br>
 
 1. kubectl list api-resources
@@ -235,7 +235,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 20. Which of these is not a service type in Kubernetes?  </summary>
+<summary> 20. Which of these is not a service type in Kubernetes?  </summary>
 <br>
 
 1. ClusterIP
@@ -247,7 +247,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 21. What language is used to specify and create a Kubernetes resource?  </summary>
+<summary> 21. What language is used to specify and create a Kubernetes resource?  </summary>
 <br>
 
 1. JavaScript
@@ -259,7 +259,7 @@ Note: Practice questions to help you prepare for the KCNA exam
 
 <details close>
 
-<summary> :small_blue_diamond: 22. Which of the following is not a required field to create a Kubernetes resource?  </summary>
+<summary> 22. Which of the following is not a required field to create a Kubernetes resource?  </summary>
 <br>
 
 1. kind
