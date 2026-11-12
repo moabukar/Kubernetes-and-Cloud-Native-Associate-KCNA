@@ -31,6 +31,8 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 
 ## KCNA topics overview
 
+> **Curriculum update:** The Linux Foundation's KCNA page now lists four domains: Kubernetes Fundamentals 44%, Container Orchestration 28%, Cloud Native Application Delivery 16% and Cloud Native Architecture 12% (observability now sits under Cloud Native Architecture). The sections below follow the earlier five-domain curriculum. Source: [Linux Foundation KCNA page](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
+
 - [X] [Kubernetes Fundamentals - 46%](#small_blue_diamond-1-kubernetes-fundamentals---46)
 - [X] [Container Orchestration - 22%](#small_blue_diamond-2-container-orchestration---22)
 - [X] [Cloud Native Architecture - 16%](#small_blue_diamond-3-cloud-native-architecture---16)
@@ -39,6 +41,7 @@ The KCNA is a certification aimed for individuals who want to advance to the pro
 
 ## Practice questions for KCNA
 - [X] [Practice questions](./mock-exam-questions/questions.md)
+- [X] [ExamCrest free KCNA sample questions](https://examcrest.com/exam/cncf-kcna/free-questions?utm_source=github&utm_campaign=moabukar-kcna) (no signup; full mock tests are paid)
 
 #### Extra helpful materials
 
